@@ -1,0 +1,1484 @@
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('fonts/Coolvetica.ttf');
+}
+
+@font-face {
+  font-family: 'curiosa_testblack';
+  src: url('fonts/curiosa-black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'curiosa_testbold';
+  src: url('fonts/curiosa-bold.woff2') format('woff2');
+}
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root {
+  /* Paleta de Colores Principal */
+  --color-magenta-vivid: #ec297b;   /* Un rosa intenso / magenta */
+  --color-amber-light: #faac3c;     /* Un naranja suave / ámbar */
+  --color-sky-blue: #3e96d2;        /* Azul cielo brillante */
+  --color-navy-deep: #134375;       /* Azul marino profundo */
+  --color-gray-light: #f5f5f5;     /* Un gris claro para fondos */
+  --color-white: #ffffff;           /* Blanco puro para contraste */
+
+
+  /* Tipografía */
+
+  --font-primary: 'Coolvetica', sans-serif; /* Para títulos y elementos destacados */
+  --font-secondary: 'Montserrat', sans-serif; /* Para párrafos y texto general */
+}
+
+/* ================= RESET GENERAL ================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Coolvetica', sans-serif;
+}
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: var(--font-secondary);
+}
+
+html, body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow-x: hidden !important;
+    color: var(--color-navy-deep);
+    background-color: var(--color-white);
+}
+
+/* ================= ESTILOS BASE HTML Y BODY ================= */
+
+
+/* Navbar general */
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; /* Alinea todo verticalmente */
+    background-color: #FFFFFF;
+}
+
+/* Logos */
+.logo-mp {
+    height: 50px;
+    margin-top: -10px; /* Ajusta este valor según sea necesario para alinear verticalmente con el otro logo */
+}
+
+.img-logo {
+    height: 50px;
+    margin-top: -10px;
+}
+
+/* Contenedor de rutas */
+.nav-icons {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+    margin-left: auto; 
+    font-weight: 500;
+}
+.nav-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column; /* Para colocar el texto debajo del icono */
+    align-items: center; /* Centra el texto debajo del icono */
+    color: var(--color-navy-deep);
+}
+
+.nav-icons li {
+  list-style: none;
+  letter-spacing: 0.05rem;
+}
+
+.nav-icons img {
+    height: 50px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.nav-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .logo-mp, .img-logo {
+        margin-top: 2.5px;
+    }
+    .navbar-collapse {
+        width: 100%;
+    }
+
+    .nav-icons {
+        flex-direction: column; /* Iconos en vertical */
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .nav-icons li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-icons img {
+        height: 38px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .logo-mp, .img-logo {
+        height: 40px;
+    }
+
+    .nav-icons img {
+        height: 30px;
+    }
+}
+
+/* Color personalizado del icono hamburguesa */
+/* NAVBAR FLOTANTE */
+/* BOTÓN HAMBURGUESA FLOTANTE */
+
+
+.btn-floating-menu:hover {
+  transform: scale(1.1);
+}
+
+.navbar-toggler {
+    border-color: #ec297b;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ec297b' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/*TEXTURA PRINCIPAL (ARRIBA DEL HEADER)*/
+
+.textura {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 999;
+  pointer-events:none;
+}
+.textura img {
+  width: 100%;
+  height: 12px;
+  display: block;
+}
+
+/* ================= SECCIÓN CARRUSEL CONOCE P ================= */
+
+.conoce-p {
+  width: 100%;
+  padding: 15px 0;
+  position: relative;
+}
+
+/* Contenedor del carrusel */
+.conoce-p .carousel {
+  width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+  border-radius: 45px;
+  overflow: hidden;
+}
+
+/* Cada slide */
+.conoce-p .carousel-cell {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 15% 70px 75px 0;
+  border-radius: 45px;
+}
+
+/* Overlay degradado */
+.conoce-p .gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.2));
+  z-index: 1;
+}
+
+/* Contenido arriba del gradiente */
+.conoce-p .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* TITULOS GENERALES */
+.conoce-p h2 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+  background-color: rgba(19, 69, 117, 0.5);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: 800;
+}
+
+/* PÁRRAFOS */
+.conoce-p p {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: rgba(19, 69, 117, 0.5);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* SLIDE 1 TEXTO GRANDE */
+.titulo-grande {
+  font-size: 60px;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.1;
+  background-color: rgba(19, 69, 117, 0.5);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.titulo-grande span {
+  display: block;
+}
+
+.linea1 {
+  font-size: 55px;
+}
+
+.linea2 {
+  font-size: 50px;
+  padding-left: 30px;
+}
+
+/* DESCRIPCIÓN */
+.descripcion {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 30px 40px;
+  border-radius: 20px;
+  background-color: rgba(19, 69, 117, 0.5);
+}
+/**/
+.slide3-text, .slide1-text {
+  padding-left: 5%;
+}
+/* ALINEACIONES ESPECIALES */
+.slide3-text h2,
+.slide3-text p {
+  text-align: left;
+}
+
+/* FONDOS DE SLIDES */
+.slide1 { background: url(img/slide-11.jpeg) no-repeat center/cover; }
+.slide2 { background: url(img/slide2-1.png) no-repeat center/cover; }
+.slide3 { background: url(img/slide-33-1.jpeg) no-repeat center/cover; }
+.slide4 { background: url(img/slide4.jpeg) no-repeat center/cover; }
+.slide5 { background: url(img/slide2-eco.png) no-repeat center/cover; }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .conoce-p .carousel {
+    height: 70vh;
+  }
+
+  .titulo-grande {
+    font-size: 32px;
+    padding: 15px 20px;
+  }
+
+  .linea1 {
+    font-size: 32px;
+  }
+
+  .linea2 {
+    font-size: 28px;
+    padding-left: 0;
+  }
+
+  .descripcion {
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  .conoce-p h2 {
+    font-size: 32px;
+  }
+
+  .conoce-p p {
+    font-size: 16px;
+  }
+}
+
+/* BOTONES FLICKITY */
+.flickity-button {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.flickity-button:hover {
+  border-color: #fff;
+}
+
+/*===============================
+  BIENVENIDA DE LA ALCALDEZA
+==============================*/
+
+.section-alcaldesa {
+  padding: 50px 0 0 0;
+  position: relative;
+}
+
+/* CARD */
+.profile-card {
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fb 100%);
+  border-radius: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  overflow: hidden; /* 👈 importante para que la imagen respete bordes */
+}
+
+/* ROW */
+.profile-card .row {
+  height: 100%;
+}
+
+/* COLUMNA IMAGEN */
+.col-lg-5 {
+  min-height: 500px; /* 👈 altura base */
+}
+
+/* IMAGEN FULL COVER */
+.col-lg-5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 🔥 llena todo */
+  display: block;
+}
+
+/* TEXTO */
+.profile-info {
+  padding: 50px;
+}
+
+.profile-tag {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #ec297b;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.profile-name {
+  font-family: 'Coolvetica', sans-serif !important;
+  color: #134575;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.profile-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+  line-height: 1.6;
+  border-left: 2px solid #ddd;
+  padding-left: 20px;
+}
+
+.profile-signature {
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #134575;
+}
+
+
+/*=======================================
+       SECCION DESCUBRE
+=========================================*/
+/* TÍTULO */
+.tt-sec { 
+  font-family: 'Coolvetica', sans-serif;  
+  font-size: 55px; 
+  color: var(--color-magenta-vivid); 
+  font-weight: 600;
+  text-align: left;
+}
+
+.tt-sec span { 
+  color: var(--color-navy-deep); 
+  font-family: 'Montserrat'; 
+  font-weight: 800; 
+  font-size: 90px; 
+}
+
+/* TEXTO */
+.text-intro { 
+  font-family: 'Coolvetica', sans-serif;
+  font-size: 1.9rem;
+  line-height: 1.6;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color-navy-deep);
+  text-align: left !important; 
+}
+
+
+/* PALABRAS DESTACADAS */
+.important_t {
+  color: var(--color-sky-blue);
+}
+
+/* Imágenes */
+.icono-info img {
+  width: 100%;
+  aspect-ratio: 4/3; /* mantiene proporción */
+  object-fit: cover;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+/* efecto hover (opcional pero pro) */
+.icono-info img:hover {
+  transform: scale(1.05);
+}
+
+/*ESTILOS DEL SEPATADOR (PATTERN)*/
+.pattern { 
+  background: url(img/pattern.png) no-repeat; 
+  max-width: 1280px; 
+  height: 100px; 
+  margin: auto; 
+  background-position: center top;  
+  position: relative; 
+}
+
+/*=========================
+        SECCION MAPA
+========================*/
+/* Contenedor principal */
+.mapa { 
+  background: url(img/mapa-l.PNG) no-repeat right center;
+  background-size: contain;
+  max-width: 1280px; 
+  margin: 0 auto; 
+  position: relative;
+}
+
+/* Texto grande */
+.text-intro2 { 
+  font-size: 2.2rem; 
+  font-weight: 700;
+  line-height: 35px; 
+  letter-spacing:0.1rem; 
+  color: var(--color-sky-blue); 
+  text-transform: uppercase; 
+  font-family: 'Coolvetica', sans-serif; 
+  text-align: left !important;
+
+}
+
+.text-intro2 p {
+  font-size: 30px;
+  margin: 0; 
+  line-height: 1.9rem;
+}
+
+.text-intro2 span { 
+  color: #e71d73;
+  font-family: 'Montserrat'; 
+  font-weight: 800; 
+}
+
+.mt-4{
+  color: var(--color-navy-deep);
+  font-family: 'Coolvetica', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 22px;
+}
+
+/* Imagen del mapa (oculta) */
+.mapa-container {
+  display: none;
+}
+
+.mapa-img {
+  width: 100%;
+  height: auto;
+  display: block; 
+  max-width: 500px;
+  object-fit: contain;
+}
+
+
+
+/*=============================
+SECCIÓN VIDEO
+==============================*/
+/* CONTENEDOR */
+.video-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 45px;
+}
+
+/* VIDEO */
+.video-custom { 
+  width: 100%;
+  display: block; /* 👈 elimina espacios raros */
+  border-radius: 45px;
+}
+
+/* HOVER SUAVE */
+.video-custom:hover {
+  transform: scale(1.01);
+}
+
+/* SECCIÓN */
+.video-section {
+  padding: 60px 0;
+  margin: 0;
+}
+
+
+/*=============================
+TEXTURA 2
+==============================*/
+.textura2 {
+  background-image: url("img/textura1.png");
+  background-repeat: repeat-x; /* solo horizontal */
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+}
+
+/*=============================
+FOOTER
+==============================*/
+
+footer { 
+  width: 100%; 
+  height: auto;  
+  position: relative; 
+  color: #fff;
+  padding: 115px 0; 
+  background: url(img/foo.jpg) no-repeat top center; 
+  background-size: cover; 
+  text-align: left; 
+  
+}
+
+footer b { 
+  display: block; 
+  font-weight: 600; 
+  font-size: 16px; 
+  margin-top: 9px; 
+}
+
+footer a { 
+  color: #fff; 
+  font-size: 1rem; 
+  line-height: 18px !important; 
+  display: block; 
+  margin-bottom: 5px;  
+}
+
+
+footer ul { 
+  padding: 0; 
+  margin: 0 0 38px 0; 
+}
+
+footer ul li { 
+  list-style: none; 
+  font-size: 1rem; 
+  margin: 0 0 15px 0; 
+  padding: 0; 
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  font-weight: 600;  
+  letter-spacing: 0.1rem;
+}
+
+footer ul li a {  
+  line-height: 19px; 
+  text-decoration: none; 
+  color: #fff; 
+}
+
+footer ul li a:hover,
+.firmas a:hover { 
+  color: var(--color-amber-light) !important; 
+  text-decoration: none; 
+}
+
+
+.fa-brands{
+  font-size: 1.3rem;
+}
+
+footer .img-fluid { 
+  width: 100%;  
+}
+
+footer img { 
+  margin-bottom: 50px;  
+}
+
+.firmas { 
+  padding-top:165px; 
+  font-weight: 600;
+}
+
+
+/*=============================
+          ENOTURISMO
+===============================*/
+
+/* Sección Viñedos - Fondo General */
+.vinedo { 
+    background: #ffe9f3; 
+}
+
+/* Contenedor del Slide Principal de Viñedo */
+.slide-v1 {
+    width: 100%;
+}
+
+.slide-v1 .carousel-cel, 
+.slide-v1 .carousel-cell {
+  min-height: 60vh; 
+  height: auto; 
+}
+
+/* Fondo de la sección slide-v */
+.slide-v {
+    background: url(img/vinedo-slide.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/* Contenedor general del carrusel */
+.carousel { 
+    width: 90%; 
+    height: 88vh; 
+    margin: 0rem auto; 
+    border-radius: 45px; 
+    overflow: hidden;  
+}
+
+/* Diapositivas individuales */
+.carousel-cell {  
+    width: 100%;  
+    height: 100%; 
+    position: relative; 
+    padding: 40px 0 0 0 !important;  
+}
+
+.carousel.is-fullscreen .carousel-cell {  
+    height: 100%; 
+}
+
+/* Carrusel específico de viñedos */
+.slides-v .carousel {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 10;
+    font-family: 'Coolvetica', sans-serif;
+}
+
+.bienvenida_ p{
+  padding-left: 75px;
+  font-size: 1.0rem;
+  font-weight: 600;
+}
+
+/* Botones de navegación (Flickity) */
+.flickity-button, 
+.flickity-button:hover {
+    position: absolute;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.flickity-prev-next-button {
+    width: 40px;
+    height: 40px;
+    background: transparent !important;
+}
+
+.flickity-prev-next-button:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Panel de Información Flotante */
+.panel-info {
+  background: rgb(22, 60, 97, 0.9);
+  /*background:rgb(19, 69, 117);*/
+  color:#fff;
+  width:80%;
+  height:500px;
+  transition: all 0.5s;
+  left: 10%;
+  top: 87%;
+  position:absolute;
+  z-index:11;
+  border-radius:35px;
+  padding:20px;
+  font-family: 'Coolvetica', sans-serif;
+}
+
+.panel-info .col-sm-4 {
+    text-align: right !important;
+}
+
+
+/* Ajuste de posición activa/alterna */
+.panel-info1 { 
+    top: 20%; 
+}
+
+.panel-info h2 { 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-transform:uppercase; 
+  float: left;
+  color: #ffff;
+  text-shadow: 2px 2px 0px #505050;
+}
+
+.panel-info p,
+.productos_v { 
+  font-family: 'Coolvetica', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.6; 
+  color: #fff; 
+  text-shadow: 1px 1px 0px #505050;
+  font-weight: 600;
+}
+
+h3{
+  letter-spacing: .5px;
+  font-family: 'Coolvetica', sans-serif;
+  font-weight: 800;
+}
+
+.panel-info div { 
+    margin-bottom: 15px; 
+}
+
+
+
+/* Contenedor con scroll interno */
+.scroll_ {
+    height: 350px;
+    overflow-x: auto;
+}
+
+/* Textos en Slide-V1 */
+.slide-v1 .carousel-cell h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-text-stroke: 1.3px rgb(0, 48, 135);
+}
+
+.slide-v1 .carousel-cell h3 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-text-stroke: 1.3px rgb(0, 48, 135);
+}
+
+.slide-v1 .carousel-cell p {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Estilos de Vinícola Individual (Slide-vin) */
+.slide-vin {
+    width: 90%;
+    margin: 0 auto;
+    padding: 75px 0 0 0;
+    background: url(img/arte2.jpg) no-repeat center;
+    background-position: center;
+    border-radius: 45px;
+}
+
+.slide-vin h3, 
+.slide-vin p {
+    text-align: center;
+    color: rgb(19, 69, 117);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
+.slide-vin h3 { font-size: 2.5rem; text-transform: uppercase; }
+.slide-vin p { font-size: 20px; font-weight: 600;}
+
+/* Botones de Icono */
+.buton_ {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: url(img/boton_.png) no-repeat center;
+    background-size: cover;
+}
+
+.buton_ img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Cuadros de Dirección y Contacto */
+.address-viñedo, 
+address {  
+  margin-top: 25px;
+  padding: 15px 25px 5px 25px;
+  background: rgba(0, 159, 227, 0.4);
+  border-radius: 15px;
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
+}
+
+.address-viñedo a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    margin-top: 5px;
+    display: block;
+}
+
+.address-viñedo a:hover {
+    color: var(--color-amber-light);
+    text-decoration: none;
+}
+
+address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+}
+
+.address-viñedo i {
+    margin-right: 8px;
+    font-size: 1.1em;
+}
+
+/* Pleca de Directorio / Filtros */
+#pleca-dir {
+    width: 80%;
+    margin: 0px auto;
+    padding: 25px 3%;
+    text-align: center;
+    clear: both;
+}
+
+#pleca-dir div {
+  font-family: var(--font-primary);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: inline-block;
+  margin: 15px;
+  padding: 5px 25px;
+  color: #fff;
+  background: rgba(0, 48, 135, 0.85);
+  border-radius: 25px;
+  cursor: pointer;
+    
+}
+
+#pleca-dir div:hover {
+    background: rgba(0, 163, 255, 0.8);
+}
+
+.horario-eco,
+.panel-info ul li{
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.bullet { 
+    width: 100px;
+    float: right;
+}
+
+.principal { 
+    margin: -190px 0 0 -170px; 
+}
+
+.se { 
+    float: right; 
+    margin-top: -270px; 
+}
+
+.carousel-cell-image { 
+    display: block;  
+    max-height: 100%; 
+}
+
+#servicios {
+    /* color: hsl(327, 100%, 50%); */
+    color: var(--color-magenta-vivid);
+    text-shadow: 2px 2px 0px #505050;
+}
+
+#actividades {
+    color: #fcc124;
+    text-shadow: 2px 2px 0px #505050;
+}
+
+.fa-wine-glass-empty{
+  transform: rotate(45deg);
+}
+/* ================= VIÑEDOS ================= */
+
+
+/* ================================
+   VIÑEDO – REAL DE PLATA / IMAGENES CARRUSEL
+   ================================ */
+.vin1a { background: url(img/viñedos/realdeplata/realdeplata1.jpg) no-repeat center; background-size:cover; }
+.vin1b { background: url(img/viñedos/realdeplata/realdeplata2.jpg) no-repeat center; background-size:cover; }
+.vin1c { background: url(img/viñedos/realdeplata/realdeplata3.jpg) no-repeat center; background-size:cover; }
+.vin1d { background: url(img/viñedos/realdeplata/realdeplata4.jpg) no-repeat center; background-size:cover; }
+
+/* ================================
+   VIÑEDO – HACIENDA LETRAS / IMAGENES CARRUSEL
+   ================================ */
+.vin2a { background: url(img/viñedos/haciendaletras/letras1.jpg) no-repeat center; background-size:cover; }
+.vin2b { background: url(img/viñedos/haciendaletras/letras2.jpg) no-repeat center; background-size:cover; }
+.vin2c { background: url(img/viñedos/haciendaletras/letras3.jpg) no-repeat center; background-size:cover; }
+.vin2d { background: url(img/viñedos/haciendaletras/letras4.jpg) no-repeat center; background-size:cover; }
+.vin2e { background: url(img/viñedos/haciendaletras/letras5.jpg) no-repeat center; background-size:cover; }
+.vin2f { background: url(img/viñedos/haciendaletras/letras6.jpg) no-repeat center; background-size:cover; }
+.vin2g { background: url(img/viñedos/haciendaletras/letras7.jpg) no-repeat center; background-size:cover; }
+
+/* ================================
+   VIÑEDO – ORIGEN / IMAGENES CARRUSEL
+   ================================ */
+.vin3a { background: url(img/viñedos/origen/origen1.png) no-repeat center; background-size:cover; }
+.vin3b { background: url(img/viñedos/origen/origen2.jpg) no-repeat center; background-size:cover; }
+.vin3c { background: url(img/viñedos/origen/origen3.jpg) no-repeat center; background-size:cover; }
+.vin3d { background: url(img/viñedos/origen/origen4.jpg) no-repeat center; background-size:cover; }
+.vin3e { background: url(img/viñedos/origen/origen5.jpg) no-repeat center; background-size:cover; }
+.vin3f { background: url(img/viñedos/origen/origen6.jpg) no-repeat center; background-size:cover; }
+.vin3g { background: url(img/viñedos/origen/origen7.jpg) no-repeat center; background-size:cover; }
+
+/* ================================
+   VIÑEDO – SANTA ELENA / IMAGENES CARRUSEL
+   ================================ */
+.vin4a { background: url(img/viñedos/santaelena/elena1.jpg) no-repeat center; background-size:cover; }
+.vin4b { background: url(img/viñedos/santaelena/elena2.jpg) no-repeat center; background-size:cover; }
+.vin4c { background: url(img/viñedos/santaelena/elena3.jpg) no-repeat center; background-size:cover; }
+.vin4d { background: url(img/viñedos/santaelena/elena4.png) no-repeat center; background-size:cover; }
+.vin4e { background: url(img/viñedos/santaelena/elena5.jpg) no-repeat center; background-size:cover; }
+
+/* ================================
+   VIÑEDO – AGUAJE /  IMAGENES CARRUSEL
+   ================================ */
+.vin5a { background: url(img/viñedos/aguaje/aguaje3.jpg) no-repeat center; background-size:cover; }
+.vin5b { background: url(img/viñedos/aguaje/aguaje2.jpg) no-repeat center; background-size:cover; }
+.vin5c { background: url(img/viñedos/aguaje/aguaje1.jpg) no-repeat center; background-size:cover; }
+.vin5d { background: url(img/viñedos/aguaje/aguaje4.jpg) no-repeat center; background-size:cover; }
+.vin5e { background: url(img/viñedos/aguaje/aguaje5.jpg) no-repeat center; background-size:cover; }
+
+/* ================================
+   LAS CRUCES – GALERÍA / IMAGENES CARRUSEL
+   ================================ */
+.cruz1 { background: url(img/viñedos/lascruces/lascruces2.jpg) no-repeat center; background-size:cover; }
+.cruz2 { background: url(img/viñedos/lascruces/lascruces1.jpeg) no-repeat center; background-size:cover; }
+.cruz3 { background: url(img/viñedos/lascruces/lascruces3.jpg) no-repeat center; background-size:cover; }
+.cruz4 { background: url(img/viñedos/lascruces/lascruces4.jpg) no-repeat center; background-size:cover; }
+.cruz5 { background: url(img/viñedos/lascruces/lascruces5.jpg) no-repeat center; background-size:cover; }
+.cruz6 { background: url(img/viñedos/lascruces/lascruces6.jpg) no-repeat center; background-size:cover; }
+.cruz7 { background: url(img/viñedos/lascruces/lascruces7.jpg) no-repeat center; background-size:cover; }
+.cruz8 { background: url(img/viñedos/lascruces/lascruces8.jpg) no-repeat center; background-size:cover; }
+.cruz9 { background: url(img/viñedos/lascruces/lascruces9.jpg) no-repeat center; background-size:cover; }
+.cruz10 { background: url(img/viñedos/lascruces/lascruces10.jpg) no-repeat center; background-size:cover; }
+.cruz11 { background: url(img/viñedos/lascruces/lascruces11.jpg) no-repeat center; background-size:cover; }
+.cruz12 { background: url(img/viñedos/lascruces/lascruces12.jpg) no-repeat center; background-size:cover; }
+.cruz13 { background: url(img/viñedos/lascruces/lascruces13.jpg) no-repeat center; background-size:cover; }
+.cruz14 { background: url(img/viñedos/lascruces/lascruces14.jpg) no-repeat center; background-size:cover; }
+
+/* ================================
+   SARMIENTO – GALERÍA COMPLETA / IMAGENES CARRUSEL
+   ================================ */
+.vsar1  { background: url(img/viñedos/sarmiento/vsar3.JPEG) no-repeat center; background-size:cover; }
+.vsar2  { background: url(img/viñedos/sarmiento/vsar2.JPEG) no-repeat center; background-size:cover; }
+.vsar3  { background: url(img/viñedos/sarmiento/vsar1.JPEG) no-repeat center; background-size:cover; }
+.vsar4  { background: url(img/viñedos/sarmiento/vsar4.JPEG) no-repeat center; background-size:cover; }
+.vsar5  { background: url(img/viñedos/sarmiento/vsar5.JPEG) no-repeat center; background-size:cover; }
+.vsar7  { background: url(img/viñedos/sarmiento/vsar7.JPEG) no-repeat center; background-size:cover; }
+.vsar8  { background: url(img/viñedos/sarmiento/vsar8.JPEG) no-repeat center; background-size:cover; }
+.vsar9  { background: url(img/viñedos/sarmiento/vsar9.JPEG) no-repeat center; background-size:cover; }
+.vsar10 { background: url(img/viñedos/sarmiento/vsar10.JPEG) no-repeat center; background-size:cover; }
+.vsar11 { background: url(img/viñedos/sarmiento/vsar11.PNG) no-repeat center; background-size:cover; }
+.vsar12 { background: url(img/viñedos/sarmiento/vsar12.PNG) no-repeat center; background-size:cover; }
+.vsar13 { background: url(img/viñedos/sarmiento/vsar13.PNG) no-repeat center; background-size:cover; }
+.vsar14 { background: url(img/viñedos/sarmiento/vsar14.JPG) no-repeat center; background-size:cover; }
+.vsar15 { background: url(img/viñedos/sarmiento/vsar15.JPG) no-repeat center; background-size:cover; }
+
+
+/*GARNACHA*/
+
+.slide-gast{
+  width: 100%;
+}
+
+.slide-g {
+  background: url(img/ruta_garnacha/img-principal.jpg) no-repeat center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  width:90%;
+  padding: 75px 0 0 0;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.slide-g h3 {
+  font-size:2.5rem;
+  text-transform:uppercase;
+  width:100% !important;
+  margin:0;
+  text-align: center;
+  background-color: rgb(255,255, 255, 0.7);
+  padding: 10px;
+}
+
+.slide-g p {
+  text-align: center;
+  width:100%;
+  font-size:20px;
+  background-color: rgb(255,255, 255, 0.7);
+  padding: 10px;
+}
+
+.slide-g p{
+  font-size: 1.25rem;
+  padding: 15px;
+  font-weight: 600;
+}
+
+
+.text-intro2 span { 
+  color: #e71d73;
+  font-family: 'Montserrat'; 
+  font-weight: 800; 
+  font-size:1em; 
+}
+
+.text-intro2 .bienvenida { 
+  height: auto; 
+  padding:190px 0; 
+  max-width:1280px; 
+  margin:0 auto;   
+}
+
+.bienvenida_ { 
+  height: auto; 
+  padding: 90px 3%;   
+}
+
+.bienvenida_ p { 
+  padding-left: 75px; 
+  font-size: 1.0rem;
+}
+
+.slides-g .carousel {
+  width: 100%;
+  height:390px !important;
+  position:relative;
+  z-index:10;
+}
+
+.slides-g .carousel h2 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  color:#fff;
+  font-size:32px;
+  position:absolute;
+  z-index:10;
+  bottom:45px;
+  left:25px;
+  text-transform:uppercase;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, .7) !important;
+  -webkit-text-stroke: 1.3px rgb(227, 28, 121);
+}
+
+.slides-g .carousel .carousel-cell {
+  height:350px !important;
+  border-radius:50px;
+  margin-right:10px;
+}
+
+.slides-g .col-sm-4 { 
+  margin-bottom:50px; 
+}
+
+.slides-g .flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
+
+.slides-g .flickity-page-dots .dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 3px;
+  background: rgba(0,163,255, 0.75);
+  border-radius: 50%;
+  opacity: 0.25;
+  cursor: pointer;
+}
+
+.slides-g .flickity-page-dots .dot.is-selected {
+  opacity: 1 !important;
+}
+
+.info-res {
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: rgb(227, 28, 121);
+  /* background: rgba(0, 163, 255, 0.5); */
+  color: #fff;
+  border-radius: 35px;
+  padding: 25px 50px;
+  margin-top: 10px;
+}
+
+.info-res a{
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.info-res a:hover{
+  color:#163c61;
+  cursor: pointer;
+}
+
+
+/* =====================================
+   GALERÍA / SECCIÓN GORDITAS Y MIGADAS IME
+   ===================================== */
+.gymi-1 { background: url(img/ruta_garnacha/gorditas_ime/gymi-1.jpg) no-repeat center; background-size:cover; }
+.gymi-2 { background: url(img/ruta_garnacha/gorditas_ime/gymi-2.jpg) no-repeat center; background-size:cover; }
+.gymi-3 { background: url(img/ruta_garnacha/gorditas_ime/gymi-3.jpg) no-repeat center; background-size:cover; }
+.gymi-4 { background: url(img/ruta_garnacha/gorditas_ime/gymi-4.jpg) no-repeat center; background-size:cover; }
+
+
+/* =====================================
+   GALERÍA / SECCIÓN GORDITAS TOMY
+   ===================================== */
+.gt-1 { background: url(img/ruta_garnacha/goritas_tomy/gt-1.jpg) no-repeat center; background-size:cover; }
+.gt-2 { background: url(img/ruta_garnacha/goritas_tomy/gt-2.jpg) no-repeat center; background-size:cover; }
+.gt-3 { background: url(img/ruta_garnacha/goritas_tomy/gt-3.jpg) no-repeat center; background-size:cover; }
+
+
+/* =====================================
+   GALERÍA / SECCIÓN LONCHERIA SERNA
+   ===================================== */
+.ls-1 { background: url(img/ruta_garnacha/loncheria_serna/ls-1.jpg) no-repeat center; background-size:cover; }
+.ls-2 { background: url(img/ruta_garnacha/loncheria_serna/ls-2.jpg) no-repeat center; background-size:cover; }
+.ls-3 { background: url(img/ruta_garnacha/loncheria_serna/ls-3.jpg) no-repeat center; background-size:cover; }
+.ls-4 { background: url(img/ruta_garnacha/loncheria_serna/ls-4.jpg) no-repeat center; background-size:cover; }
+
+
+/* =====================================
+   GALERÍA / SECCIÓN MARISCOS CACHE
+   ===================================== */
+.mc-1 { background: url(img/ruta_garnacha/mariscos_cache/mc-1.jpg) no-repeat center; background-size:cover; }
+.mc-2 { background: url(img/ruta_garnacha/mariscos_cache/mc-2.jpg) no-repeat center; background-size:cover; }
+.mc-3 { background: url(img/ruta_garnacha/mariscos_cache/mc-3.jpg) no-repeat center; background-size:cover; }
+.mc-4 { background: url(img/ruta_garnacha/mariscos_cache/mc-4.jpg) no-repeat center; background-size:cover; }
+
+
+/* =====================================
+   RUTA GASTRONÓMICA – GORDITAS ARTURO
+   ===================================== */
+.rgga-1 { background: url(img/ruta_garnacha/gorditas_arturo/ga-1.jpg) no-repeat center; background-size:cover; }
+.rgga-2 { background: url(img/ruta_garnacha/gorditas_arturo/ga-2.jpg) no-repeat center; background-size:cover; }
+.rgga-3 { background: url(img/ruta_garnacha/gorditas_arturo/ga-3.jpg) no-repeat center; background-size:cover; }
+.rgga-4 { background: url(img/ruta_garnacha/gorditas_arturo/ga-4.jpg) no-repeat center; background-size:cover; }
+
+
+/* =====================================
+   RUTA GASTRONÓMICA – ANTOJITOS CRISTY
+   ===================================== */
+.rgac-1 { background: url(img/ruta_garnacha/antojitos_cristy/rgac-1.jpg) no-repeat center; background-size:cover; }
+.rgac-2 { background: url(img/ruta_garnacha/antojitos_cristy/rgac-2.jpg) no-repeat center; background-size:cover; }
+.rgac-3 { background: url(img/ruta_garnacha/antojitos_cristy/rgac-3.jpg) no-repeat center; background-size:cover; }
+
+
+/* =====================================
+   RUTA GASTRONÓMICA – CENADURÍA LILI
+   ===================================== */
+.rg-cl-1 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-1.jpg) no-repeat center; background-size:cover; }
+.rg-cl-2 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-2.jpg) no-repeat center; background-size:cover; }
+.rg-cl-3 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-3.jpg) no-repeat center; background-size:cover; }
+.rg-cl-4 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-4.jpg) no-repeat center; background-size:cover; }
+
+
+/* =====================================
+   RUTA GASTRONÓMICA – CENADURÍA HORTENCIA
+   ===================================== */
+.rg-gh-1 { background: url(img/ruta_garnacha/cenaduria_hortencia/rg-gh-1.jpg) no-repeat center; background-size:cover; }
+.rg-gh-2 { background: url(img/ruta_garnacha/cenaduria_hortencia/rg-gh-2.jpg) no-repeat center; background-size:cover; }
+.rg-gh-3 { background: url(img/ruta_garnacha/cenaduria_hortencia/rg-gh-3.jpg) no-repeat center; background-size:cover; }
+
+
+/* =====================================
+   RUTA GASTRONÓMICA – GORDITAS MEÑA
+   ===================================== */
+.rg-gm-1 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-1.jpg) no-repeat center; background-size:cover; }
+.rg-gm-2 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-2.jpg) no-repeat center; background-size:cover; }
+.rg-gm-3 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-3.jpg) no-repeat center; background-size:cover; }
+.rg-gm-4 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-4.jpg) no-repeat center; background-size:cover; }
+
+
+/* =====================================
+   RUTA GASTRONÓMICA – TAQUERIA YATZIL
+   ===================================== */
+.rg-ty-1 { background: url(img/ruta_garnacha/taqueria_yatzil/rg-ty-1.jpg) no-repeat center; background-size:cover; }
+
+/* =====================================
+   RUTA GASTRONÓMICA – LAS CARMELINAS
+   ===================================== */
+.rg-lc-1 { background: url(img/ruta_garnacha/las_carmelinas/res-s1b.jpg) no-repeat center; background-size:cover; }
+.rg-lc-2 { background: url(img/ruta_garnacha/las_carmelinas/res-s2c.jpg) no-repeat center; background-size:cover; }
+
+/* =====================================
+   RUTA GASTRONÓMICA – RESTAURANTE PELICANOS
+   ===================================== */
+.rg-rp-1 { background: url(img/ruta_garnacha/restaurante_pelicanos/peli1.jpg) no-repeat center; background-size:cover; }
+.rg-rp-2 { background: url(img/ruta_garnacha/restaurante_pelicanos/peli2.jpg) no-repeat center; background-size:cover; }
+
+/* =====================================
+   RUTA GASTRONÓMICA – CASA NACHO
+   ===================================== */
+.rg-nc-1 { background: url(img/ruta_garnacha/casa_nacho/cdn1.jpg) no-repeat center; background-size:cover; }
+.rg-nc-2 { background: url(img/ruta_garnacha/casa_nacho/cdn2.jpg) no-repeat center; background-size:cover; }
+.rg-nc-3 { background: url(img/ruta_garnacha/casa_nacho/cdn3.jpg) no-repeat center; background-size:cover; }
+
+/* =====================================
+   RUTA GASTRONÓMICA – RESTAURANTE CUQUITA
+   ===================================== */
+.rg-rc-1 { background: url(img/ruta_garnacha/restaurante_cuquita/cu1.jpg) no-repeat center; background-size:cover; }
+.rg-rc-2 { background: url(img/ruta_garnacha/restaurante_cuquita/cu2.jpg) no-repeat center; background-size:cover; }
+.rg-rc-3 { background: url(img/ruta_garnacha/restaurante_cuquita/cu3.jpg) no-repeat center; background-size:cover; }
+
+
+/* =====================================
+
+   ECOTURISMO Y TURISMO DE AVENTURA
+
+   ===================================== */
+
+.slide-eco{
+  width: 100%;
+}
+
+/* SLIDE ECOTURISMO – ALTURA Y TEXTO*/
+.slide-eco{
+  width: 100%;
+}
+
+/* SLIDE ECO / IMAGEN DE FONDO */
+.eco {
+    background: url(img/eco/yuca/yuca7.jpg) no-repeat center;
+    overflow: hidden !important;
+    background-size:cover;
+    border-radius:45px;
+    width:90%;
+    padding:75px;
+    margin:0 auto;
+}
+
+/* Título sección eco */
+.eco h3 {
+    font-size:2.5rem;
+    text-transform:uppercase;
+    text-align: center;
+    width:100% !important;
+    margin:0;
+    /*color:#fff;*/
+    /*-webkit-text-stroke: 1.3px rgb(0, 163, 255);*/
+    background-color: rgb(255,255, 255, 0.7);
+    padding: 10px;
+}
+
+/* Texto sección eco */
+.eco p {
+    text-align: center;
+    color: rgb(19, 69, 117);
+    width:100%;
+    font-size:18px;
+    background-color: rgb(255,255, 255, 0.7);
+    padding: 10px;
+    font-weight: 600;
+}
+
+/* ================================
+   CARRUSELES POR SECCIÓN
+   ================================ */
+.slides-e .carousel {
+    width: 100%;
+    height:600px;
+    position:relative;
+    z-index:10;
+}
+
+.slides-e { width: 100% }
+
+/* FONDO VERDE / SECCIÓN GENERAL */
+.verde-bg { 
+  /*background:#3e96d2;*/
+  background: rgb(22, 60, 97, 0.9);
+ }
+
+/* Enlaces dentro de address cuando está en fondo verde */
+.verde-bg address a {
+  color: #ffff;
+  /*color:rgb(19, 69, 117);*/
+  /*color:rgba(0,48,135,0.9);*/
+  text-decoration:none;
+  font-family: var(--font-primary);
+  font-weight: 600;
+}
+
+/* Hover de enlaces dentro de address */
+.verde-bg address a:hover {
+  color: #fcc124;
+}
+
+.horario-eco {
+  color: #ffffff;
+  font-family: "Coolvetica";
+}
+
+/*Galeria de ecoturismo*/
+/* SPA TONALLI */
+.tonalli1 { background: url(img/eco/tonalliSpa/tonalli1.jpg) no-repeat center; background-size:cover; }
+.tonalli2 { background: url(img/eco/tonalliSpa/tonalli2.jpg) no-repeat center; background-size:cover; }
+.tonalli4 { background: url(img/eco/tonalliSpa/tonalli4.jpg) no-repeat center; background-size:cover; }
+.tonalli5 { background: url(img/eco/tonalliSpa/tonalli5.jpg) no-repeat center; background-size:cover; }
+.tonalli6 { background: url(img/eco/tonalliSpa/tonalli6.jpg) no-repeat center; background-size:cover; }
+.tonalli7 { background: url(img/eco/tonalliSpa/tonalli7.jpg) no-repeat center; background-size:cover; }
+.tonalli8 { background: url(img/eco/tonalliSpa/tonalli8.jpg) no-repeat center; background-size:cover; }
+
+/* SPA VITA */
+.vita1 { background: url(img/eco/vitaspa/vita1.png) no-repeat center; background-size:cover; }
+
+/* ECO YUCA */
+.yuca1 { background: url(img/eco/yuca/yuca1.jpg) no-repeat center; background-size:cover; }
+.yuca2 { background: url(img/eco/yuca/yuca2.jpg) no-repeat center; background-size:cover; }
+.yuca3 { background: url(img/eco/yuca/yuca3.jpg) no-repeat center; background-size:cover; }
+.yuca4 { background: url(img/eco/yuca/yuca4.jpg) no-repeat center; background-size:cover; }
+.yuca5 { background: url(img/eco/yuca/yuca5.jpg) no-repeat center; background-size:cover; }
+.yuca6 { background: url(img/eco/yuca/yuca6.jpg) no-repeat center; background-size:cover; }
+.yuca7 { background: url(img/eco/yuca/yuca7.jpg) no-repeat center; background-size:cover; }
+
+/* LUNARIA */
+.luna1 { background: url(img/eco/luna/luna1.jpg) no-repeat center; background-size:cover; }
+.luna2 { background: url(img/eco/luna/luna2.jpg) no-repeat center; background-size:cover; }
+.luna3 { background: url(img/eco/luna/luna3.jpg) no-repeat center; background-size:cover; }
+
+/* RIDVAN */
+.rid0 { background: url(img/eco/ridvan/rid0.jpg) no-repeat center; background-size:cover; }
+.rid1 { background: url(img/eco/ridvan/rid1.jpg) no-repeat center; background-size:cover; }
+.rid2 { background: url(img/eco/ridvan/rid2.jpg) no-repeat center; background-size:cover; }
+.rid3 { background: url(img/eco/ridvan/rid3.jpg) no-repeat center; background-size:cover; }
+.rid4 { background: url(img/eco/ridvan/rid4.jpg) no-repeat center; background-size:cover; }
+.rid5 { background: url(img/eco/ridvan/rid5.jpg) no-repeat center; background-size:cover; }
+.rid6 { background: url(img/eco/ridvan/rid6.jpg) no-repeat center; background-size:cover; }
+
+/* CASA BAMBU */
+.bam1 { background: url(img/eco/casabambu/cb1.jpg) no-repeat center; background-size:cover; }
+.bam2 { background: url(img/eco/casabambu/cb2.jpg) no-repeat center; background-size:cover; }
+.bam3 { background: url(img/eco/casabambu/cb3.jpg) no-repeat center; background-size:cover; }
+.bam4 { background: url(img/eco/casabambu/cb4.jpg) no-repeat center; background-size:cover; }
+.bam5 { background: url(img/eco/casabambu/cb5.jpg) no-repeat center; background-size:cover; }
+
+/* RANCHO UBUNTU */
+.ubu1 { background: url(img/eco/ubuntu/ubu1.jpg) no-repeat center; background-size:cover; }
+.ubu2 { background: url(img/eco/ubuntu/ubu2.jpg) no-repeat center; background-size:cover; }
+.ubu3 { background: url(img/eco/ubuntu/ubu3.jpg) no-repeat center; background-size:cover; }
+.ubu4 { background: url(img/eco/ubuntu/ubu4.jpg) no-repeat center; background-size:cover; }
+
+/* HACIENDA GARABATO */
+.gara1 { background: url(img/eco/garabato/gara1.jpg) no-repeat center; background-size:cover; }
+.gara2 { background: url(img/eco/garabato/gara2.jpg) no-repeat center; background-size:cover; }
+.gara3 { background: url(img/eco/garabato/gara3.jpg) no-repeat center; background-size:cover; }
+.gara4 { background: url(img/eco/garabato/gara4.jpg) no-repeat center; background-size:cover; }
+
+/* HOTEL DEL CARMEN */
+.carm1 { background: url(img/eco/hotelcarmen/hdc1.jpg) no-repeat center; background-size:cover; }
+.carm2 { background: url(img/eco/hotelcarmen/hdc2.jpg) no-repeat center; background-size:cover; }
+.carm3 { background: url(img/eco/hotelcarmen/hdc3.jpg) no-repeat center; background-size:cover; }
+.carm4 { background: url(img/eco/hotelcarmen/hdc4.jpg) no-repeat center; background-size:cover; }
+.carm5 { background: url(img/eco/hotelcarmen/hdc5.jpg) no-repeat center; background-size:cover; }
+.carm6 { background: url(img/eco/hotelcarmen/hdc6.jpg) no-repeat center; background-size:cover; }
+
+/* CASA ENCANTO */
+.casaE1 { background: url(img/eco/casaencanto/casae1.png) no-repeat center; background-size:cover; }
+.casaE2 { background: url(img/eco/casaencanto/casae2.png) no-repeat center; background-size:cover; }
+.casaE3 { background: url(img/eco/casaencanto/casae3.png) no-repeat center; background-size:cover; }
+.casaE4 { background: url(img/eco/casaencanto/casae4.png) no-repeat center; background-size:cover; }
+.casaE5 { background: url(img/eco/casaencanto/casae5.png) no-repeat center; background-size:cover; }
