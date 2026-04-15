@@ -446,16 +446,16 @@
     width: 90%;
     height: auto;
     left: 5%;
-    top: 80%;
+    top: 90%;
   }
 
   .panel-info1 {
-    top: 25%;
+    top: 35%;
   }
 
   .panel-info h2 {
     font-size: 0.95rem;
-    margin-top: 33px;
+    /* margin-top: 33px; */
     /* letter-spacing: 0.7px; */
   }
   .panel-info .col-sm-4 {
@@ -596,7 +596,7 @@
     width: 95%;
     height: auto;
     left: 2.5%;
-    top: 75%;
+    top: 87%;
     padding: 15px;
   }
 
