@@ -621,12 +621,16 @@
     padding-top: 40px;
   }
 
-  .slide-vin h3 {
+  .slide-vin h3, 
+  .slide-g h3,
+  .slide-eco h3 {
     font-size: 1.5rem;
   }
 
-  .slide-vin p {
-    font-size: 14px;
+  .slide-vin p,  
+  .slide-g p,
+  .slide-eco p {
+    font-size: 0.9rem;
   }
   img .buton_,
   .buton_{
