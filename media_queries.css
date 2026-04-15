@@ -314,6 +314,10 @@
     height: 550px;
   }
 
+  .bullet-v {
+    display: none;
+  }
+
   .panel-info {
     width: 85%;
     left: 7.5%;
