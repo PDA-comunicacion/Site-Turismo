@@ -53,25 +53,21 @@
   .navbar-collapse {
     position: fixed;
     top: 0;
-    right: -300px; /* oculto */
     width: 280px;
     height: 100vh;
-
     background: #fff;
     z-index: 9999;
-
     padding: 80px 20px;
-
     box-shadow: -10px 0 30px rgba(0,0,0,0.2);
-
-    transition: right 0.4s ease;
+    right: -300px; /* oculto */
+    transition: right 0.15s ease;
   }
 
   /* CUANDO SE ABRE */
   .navbar-collapse.show {
     right: 0;
     background-color: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
   }
 
   /* LISTA */
