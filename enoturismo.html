@@ -149,22 +149,22 @@
   </section>
 
   <div  id="pleca-dir" >
-    <div class="carmelinas" >
+    <div class="plata" >
       Real de Plata 
     </div>
-    <div class="pelicanos" >
+    <div class="letras" >
       Hacienda de Letras  
     </div>
-    <div class="casa" >
+    <div class="origen" >
       Bodegas Origen 
     </div>
-    <div class="cuquita" >
+    <div class="santa-elena" >
       Vinícola Santa Elena 
     </div>
-    <div class="agua" > 
+    <div class="aguaje" > 
       Vinícola El Aguaje 
     </div>
-    <div class="cruz" >
+    <div class="cruces" >
       Viña Las Cruces
     </div>
     <div class="sarmiento" >
@@ -190,14 +190,14 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="carousel" data-flickity='{ "cellSelector": ".carousel-cell", "fade": false, "imagesLoaded": true, "wrapAround": true, "prevNextButtons": true,"pageDots":false }'>
-            <div class="panel-info vvn5 panel-info1">
+            <div class="panel-info vvn1 ">
               <div class="container">
                 <div class="row">
                   <div class="col-sm-8" >
-                  <h2 class="bnn5"><i class="fa-solid fa-wine-glass"></i> REAL DE PLATA</h2>
+                  <h2 class="bnn1"><i class="fa-solid fa-wine-glass"></i> REAL DE PLATA</h2>
                   </div>
                   <div class="col-sm-4 text-end" >
-                    <div class="buton_ bnn5" >
+                    <div class="buton_ bnn1" >
                       <img src="img/boton_1.png">
                     </div>
                   </div>
@@ -313,14 +313,14 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="carousel" data-flickity='{ "cellSelector": ".carousel-cell", "fade": false, "imagesLoaded": true, "wrapAround": true, "prevNextButtons": true,"pageDots":false }'>
-            <div class="panel-info vvn4 pannel-info1">
+            <div class="panel-info vvn2">
               <div class="container">
                 <div class="row">
                   <div class="col-sm-8" >
-                    <h2 class="bnn4"><i class="fa-solid fa-wine-glass"></i> HACIENDA DE LETRAS</h2>
+                    <h2 class="bnn2"><i class="fa-solid fa-wine-glass"></i> HACIENDA DE LETRAS</h2>
                   </div>
                   <div class="col-sm-4 text-end" >
-                      <div class="buton_ bnn4" >
+                      <div class="buton_ bnn2" >
                         <img src="img/boton_1.png">
                       </div>
                   </div>
@@ -455,14 +455,14 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="carousel" data-flickity='{ "cellSelector": ".carousel-cell", "fade": false, "imagesLoaded": true, "wrapAround": true, "prevNextButtons": true,"pageDots":false }'>
-            <div class="panel-info vvn2">
+            <div class="panel-info vvn3">
               <div class="container">
                 <div class="row">
                   <div class="col-sm-8" >
-                  <h2 class="bnn2"><i class="fa-solid fa-wine-glass"></i> BODEGAS ORIGEN</h2>
+                  <h2 class="bnn3"><i class="fa-solid fa-wine-glass"></i> BODEGAS ORIGEN</h2>
                   </div>
                   <div class="col-sm-4 text-end" >
-                    <div class="buton_ bnn2" >
+                    <div class="buton_ bnn3" >
                       <img src="img/boton_1.png">
                     </div>
                   </div>
@@ -578,14 +578,14 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="carousel" data-flickity='{ "cellSelector": ".carousel-cell", "fade": false, "imagesLoaded": true, "wrapAround": true, "prevNextButtons": true,"pageDots":false }'>
-            <div class="panel-info vvn3">
+            <div class="panel-info vvn4">
               <div class="container">
                 <div class="row">
                   <div class="col-sm-9" >
-                    <h2 class="bnn3"><i class="fa-solid fa-wine-glass"></i> VINICOLA SANTA ELENA</h2>
+                    <h2 class="bnn4"><i class="fa-solid fa-wine-glass"></i> VINICOLA SANTA ELENA</h2>
                   </div>
                   <div class="col-sm-3 text-end" >
-                    <div class="buton_ bnn3" >
+                    <div class="buton_ bnn4" >
                       <img src="img/boton_1.png">
                     </div>
                   </div>
@@ -701,14 +701,14 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="carousel" data-flickity='{ "cellSelector": ".carousel-cell", "fade": false, "imagesLoaded": true, "wrapAround": true, "prevNextButtons": true,"pageDots":false }'>
-            <div class="panel-info vvn1">
+            <div class="panel-info vvn5">
               <div class="container">
                 <div class="row">
                   <div class="col-sm-8" >
-                    <h2 class="bnn1"><i class="fa-solid fa-wine-glass"></i> VINÍCOLA EL AGUAJE</h2>
+                    <h2 class="bnn5"><i class="fa-solid fa-wine-glass"></i> VINÍCOLA EL AGUAJE</h2>
                   </div>
                   <div class="col-sm-4 text-end" >
-                    <div class="buton_ bnn1" >
+                    <div class="buton_ bnn5" >
                       <img src="img/boton_1.png">
                     </div>
                   </div>
@@ -1129,57 +1129,52 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
 
-    $('.carmelinas').click(function() {
+    $('.plata').click(function() {
         var i = $(this).index();
-        $( '.res2, .res3, .res4, .res5, .res6, .res7, .res8, .none').fadeOut();
+        $( '.res2, .res3, .res4, .res5, .res6, .res7, .none').fadeOut();
         $( '.res1' ).show( "slow" );
     });
 
 
-    $('.pelicanos').click(function() {
+    $('.letras').click(function() {
         var i = $(this).index();
-        $( '.res1, .res3, .res4, .res5, .res6, .res7, .res8, .none').fadeOut();
+        $( '.res1, .res3, .res4, .res5, .res6, .res7, .none').fadeOut();
         $( '.res2' ).show( "slow" );
     });
 
 
-    $('.casa').click(function() {
+    $('.origen').click(function() {
         var i = $(this).index();
-        $( '.res2, .res1, .res4, .res5, .res6, .res7, .res8, .none').fadeOut();
+        $( '.res2, .res1, .res4, .res5, .res6, .res7, .none').fadeOut();
         $( '.res3' ).show( "slow" );
     });
 
 
-    $('.cuquita').click(function() {
+    $('.santa-elena').click(function() {
         var i = $(this).index();
-        $( '.res2, .res3, .res1, .res5, .res6, .res7, .res8, .none').fadeOut();
+        $( '.res2, .res3, .res1, .res5, .res6, .res7, .none').fadeOut();
         $( '.res4' ).show( "slow" );
     });
 
-    $('.agua').click(function() {
+    $('.aguaje').click(function() {
         var i = $(this).index();
-        $( '.res2, .res3, .res1, .res4, .res6, .res7, .res8, .none').fadeOut();
+        $( '.res2, .res3, .res1, .res4, .res6, .res7, .none').fadeOut();
         $( '.res5' ).show( "slow" );
     });
 
-    $('.cruz').click(function() {
+    $('.cruces').click(function() {
         var i = $(this).index();
-        $( '.res2, .res3, .res1, .res5, .res4, .res7, .res8, .none').fadeOut();
+        $( '.res2, .res3, .res1, .res5, .res4, .res7, .none').fadeOut();
         $( '.res6' ).show( "slow" );
     });
 
 
     $('.sarmiento').click(function() {
         var i = $(this).index();
-        $( '.res2, .res3, .res1, .res5, .res4, .res6, .res8, .none').fadeOut();
+        $( '.res2, .res3, .res1, .res5, .res4, .res6, .none').fadeOut();
         $( '.res7' ).show( "slow" );
     });
 
-    $('.ubuntu').click(function() {
-        var i = $(this).index();
-        $( '.res2, .res3, .res1, .res5, .res4, .res6, .res7, .none').fadeOut();
-        $( '.res8' ).show( "slow" );
-    });
 
     $('.todo').click(function() {
         var i = $(this).index();
@@ -1224,50 +1219,6 @@
     $('.bnn7').click(function() {
         $('.bnn7 img').toggleClass('img');
         $('.vvn7').toggleClass('panel-info1');
-    });
-
-    $('.bnn8').click(function() {
-        $('.bnn8 img').toggleClass('img');
-        $('.vvn8').toggleClass('panel-info1');
-    });
-
-
-    $('.bnn9').click(function() {
-        $('.bnn9 img').toggleClass('img');
-        $('.vvn9').toggleClass('panel-info1');
-    });
-
-
-    $('.bnn10').click(function() {
-        $('.bnn10 img').toggleClass('img');
-        $('.vvn10').toggleClass('panel-info1');
-    });
-
-
-    $('.bnn11').click(function() {
-        $('.bnn11 img').toggleClass('img');
-        $('.vvn11').toggleClass('panel-info1');
-    });
-
-    $('.bnn12').click(function() {
-        $('.bnn12 img').toggleClass('img');
-        $('.vvn12').toggleClass('panel-info1');
-    });
-
-
-    $('.bnn13').click(function() {
-        $('.bnn13 img').toggleClass('img');
-        $('.vvn13').toggleClass('panel-info1');
-    });
-
-    $('.bnn14').click(function() {
-        $('.bnn14 img').toggleClass('img');
-        $('.vvn14').toggleClass('panel-info1');
-    });
-
-    $('.bnn15').click(function() {
-        $('.bnn15 img').toggleClass('img');
-        $('.vvn15').toggleClass('panel-info1');
     });
 
 
