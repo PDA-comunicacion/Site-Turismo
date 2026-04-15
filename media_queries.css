@@ -314,7 +314,7 @@
     height: 550px;
   }
 
-  .bullet-v {
+  .bullet-v, .bullet {
     display: none;
   }
 
@@ -425,7 +425,7 @@
     font-size: 0.9rem;
   }
 
-  .bullet-v {
+  .bullet-v, .bullet {
     display: none;
   }
 
@@ -579,7 +579,7 @@
     height: 400px;
   }
 
-  .bullet-v {
+  .bullet-v, .bullet {
     display: none;
   }
 
