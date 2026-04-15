@@ -851,9 +851,11 @@ h3{
 
 .slide-vin h3, 
 .slide-vin p {
-    text-align: center;
-    color: rgb(19, 69, 117);
-    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    color: var(--color-white);
+    text-shadow: 2px 2px 4px black;
+    /* color: rgb(19, 69, 117); */
+    /* background-color: rgba(255, 255, 255, 0.7); */
     padding: 10px;
 }
 
@@ -946,6 +948,14 @@ address {
   color: #fff;
 }
 
+.bullet-v { 
+  position: absolute;
+  bottom: 20px;   
+  right: 20px;   
+  width: 100px;  
+  height: auto;
+  z-index: 10; 
+}  
 .bullet { 
     width: 100px;
     float: right;
