@@ -425,6 +425,10 @@
     font-size: 0.9rem;
   }
 
+  .bullet-v {
+    display: none;
+  }
+
   .carousel {
     width: 92%;
     height: 75vh;
@@ -573,6 +577,10 @@
 
   .slides-v .carousel {
     height: 400px;
+  }
+
+  .bullet-v {
+    display: none;
   }
 
   .panel-info {
