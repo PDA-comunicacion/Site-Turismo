@@ -454,9 +454,12 @@
   }
 
   .panel-info h2 {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     margin-top: 35px;
-    letter-spacing: 0.7px;
+    /* letter-spacing: 0.7px; */
+  }
+  .panel-info .col-sm-4 {
+    display: none;
   }
 
   .slide-v1 .carousel-cell h2 {
