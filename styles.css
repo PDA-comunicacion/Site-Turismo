@@ -1563,3 +1563,105 @@ address {
   margin: 0 auto;
   transform: translateX(10px); /* efecto flotante sutil */
 }
+
+/* ========================= */
+/* FOTOGRAFICA */
+/* ========================= */
+
+
+
+.foto-bg{
+  background:url(img/fotografica/presa.jpg) no-repeat center;
+  background-size:cover;
+  border-radius:50px;
+  width:90%;
+  margin:0 auto;
+  padding:80px 0;
+}
+
+.slide-foto h3{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100% !important;
+  margin: 0;
+  /* color: #fff; */
+  /* -webkit-text-stroke: 1.3px rgb(0, 163, 255); */
+  color: var(--color-white);
+  text-shadow: 2px 2px 4px black;
+}
+
+.slide-foto p{
+  text-align: center;
+  color: var(--color-white);
+  text-shadow: 2px 2px 4px black;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.img-fotografica{
+  max-width: 80%;
+  height: 70%;
+  border-radius: 60px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
+  display: block;
+  margin: 0 auto;
+  transform: translateX(10px);
+}
+
+.card-foto{
+  background:#fff;
+  border-radius:25px;
+  overflow:hidden;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+  transition:.3s;
+}
+
+.card-foto:hover{
+  transform:translateY(-10px);
+}
+
+.img-card{
+  height:220px;
+  background-size:cover;
+  background-position:center;
+}
+
+.foto1{background:url(img/foto/f1.jpg) center/cover;}
+.foto2{background:url(img/foto/f2.jpg) center/cover;}
+.foto3{background:url(img/foto/f3.jpg) center/cover;}
+
+.info-card{
+  padding:20px;
+}
+
+.btn-foto{
+  display:inline-block;
+  margin-top:10px;
+  padding:8px 20px;
+  background:#ec297b;
+  color:#fff;
+  border-radius:20px;
+  text-decoration:none;
+}
+
+.base-box{
+  background:#f5f5f5;
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
+  font-weight:600;
+}
+
+.text-intro2-foto{
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.1rem;
+  color: var(--color-sky-blue);
+  text-transform: uppercase;
+  font-family: 'Coolvetica', sans-serif;
+  text-align: left !important;
+  padding: 80px 0 0 0;
+}
