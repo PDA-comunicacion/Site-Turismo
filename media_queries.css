@@ -38,6 +38,10 @@
   .textura2{
     margin-bottom: -10px;
   }
+  /*HOLISTICA*/
+  .tittle-h{
+    font-size: 1.8rem;
+  }
 }
 
 /* Tablets horizontales (>=992px) */
