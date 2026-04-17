@@ -42,6 +42,20 @@
   .tittle-h{
     font-size: 1.8rem;
   }
+
+  /*FOTOGRAFICA*/
+  .foto-bg{
+    width: 85%;
+  }
+
+  .slide-foto h3{
+    font-size: 2.8rem;
+  }
+
+  .img-fotografica{
+    max-width: 75%;
+  }
+
 }
 
 /* Tablets horizontales (>=992px) */
@@ -145,6 +159,31 @@
   }
   i.fa-brands, .fab {
     font-size: 1.3rem;
+  }
+
+  /*FOTOGRAFICA*/
+  .foto-bg{
+    width: 90%;
+    padding: 70px 0;
+  }
+
+  .slide-foto h3{
+    font-size: 2.2rem;
+  }
+
+  .img-fotografica{
+    max-width: 85%;
+    height: auto;
+    transform: translateX(0);
+  }
+
+  .img-card{
+    height: 200px;
+  }
+
+  .text-intro2-foto{
+    font-size: 2rem;
+    line-height: 32px;
   }
 }
 
@@ -389,6 +428,36 @@
     font-size: 1rem;
     padding: 20px 30px;
   }
+
+  /*FOTOGRAFICA*/
+  .foto-bg{
+    width: 92%;
+    padding: 60px 0;
+  }
+
+  .slide-foto h3{
+    font-size: 2rem;
+  }
+
+  .slide-foto p{
+    font-size: 1rem;
+  }
+
+  .img-fotografica{
+    max-width: 90%;
+    height: auto;
+    transform: none;
+  }
+
+  .img-card{
+    height: 180px;
+  }
+
+  .text-intro2-foto{
+    font-size: 1.8rem;
+    line-height: 28px;
+    text-align: center !important;
+  }
 }
 
 /* Celulares (>=576px) */
@@ -554,6 +623,45 @@
   #pleca-dir div{
     font-size: 0.9rem;
   }
+
+  /*FOTOGRAFICA*/
+  .foto-bg{
+    width: 95%;
+    padding: 40px 0;
+    border-radius: 25px;
+  }
+
+  .slide-foto h3{
+    font-size: 1.6rem;
+  }
+
+  .slide-foto p{
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .img-fotografica{
+    max-width: 95%;
+    height: auto;
+    transform: none;
+    border-radius: 30px;
+  }
+
+  .concursos-foto div.col-sm-4 {
+    margin-bottom: 20px;
+  }
+
+  .img-card{
+    height: 160px;
+  }
+
+  .text-intro2-foto{
+    font-size: 1.5rem;
+    line-height: 24px;
+    text-align: center !important;
+    padding: 40px 0 0 0;
+  }
+
 }
 
 /* Pantallas muy pequeñas (<400px) */
@@ -650,6 +758,59 @@
   img .buton_,
   .buton_{
     display: none;
+  }
+
+  /*FOTOGRAFICA*/
+  .foto-bg{
+    width: 98%;
+    padding: 30px 0;
+    border-radius: 20px;
+  }
+
+  .slide-foto h3{
+    font-size: 1.3rem;
+    line-height: 20px;
+  }
+
+  .slide-foto p{
+    font-size: 0.85rem;
+    padding: 0 8px;
+  }
+
+  .img-fotografica{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transform: none;
+  }
+
+  .card-foto{
+    border-radius: 18px;
+  }
+
+  .img-card{
+    height: 140px;
+  }
+
+  .info-card{
+    padding: 15px;
+  }
+
+  .btn-foto{
+    padding: 6px 16px;
+    font-size: 0.8rem;
+  }
+
+  .base-box{
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .text-intro2-foto{
+    font-size: 1.2rem;
+    line-height: 20px;
+    text-align: center !important;
+    padding: 30px 0 0 0;
   }
 
 }

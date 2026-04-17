@@ -1628,9 +1628,9 @@ address {
   background-position:center;
 }
 
-.foto1{background:url(img/foto/f1.jpg) center/cover;}
-.foto2{background:url(img/foto/f2.jpg) center/cover;}
-.foto3{background:url(img/foto/f3.jpg) center/cover;}
+.foto1{background:url(img/fotografica/DJI_0157.jpg) center/cover;}
+.foto2{background:url(img/fotografica/DJI_0198.jpg) center/cover;}
+.foto3{background:url(img/fotografica/PXL02429.jpg) center/cover;}
 
 .info-card{
   padding:20px;
@@ -1652,6 +1652,7 @@ address {
   border-radius:20px;
   text-align:center;
   font-weight:600;
+  margin-bottom: 20px;
 }
 
 .text-intro2-foto{
