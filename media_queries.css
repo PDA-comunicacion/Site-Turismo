@@ -609,7 +609,10 @@
   }
 
   .slides-g .carousel h2{
-    font-size: 18px;
+    font-size: 1.4rem;
+    color: #fff;
+    -webkit-text-stroke: #ec297b 1px;
+    text-shadow: 5px 5px 10px #000;
     bottom: 20px;
     left: 15px;
   }
