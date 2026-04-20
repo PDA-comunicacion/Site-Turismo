@@ -63,142 +63,91 @@
 
       </div>
   </nav>
+  <!--Textura 1-->
   <div class="textura">
       <img src="img/textura2.png" alt="">
   </div>
 
+  
 
 
-  <!-- ===============================
-RUTA FOTOGRÁFICA ITINERANTE
-Diseño alineado a tus otras rutas
-=============================== -->
 
-<section class="slide-foto">
-  <div class="foto-bg">
+    <!-- HERO -->
+    <section class="slide-haciendas">
+        <div class="slide-h">
+            <div class="container">
+                <div class="row">
+                <div class="col-sm-5 text-end">
+                    <h3>Haciendas Históricas
+                    </h3>
+                    <br>
+                    <br><br><br>
+                    <p>
+                    Un recorrido por la historia viva de la región.
+                    </p>
+                    <br><br><br><br><br><br><br>
+                </div>
+                <div class="col-sm-7 text-end">
+                
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6"></div>
-        <div class="col-sm-6 text-end">
-          <br><br>
-          <h3>
-            CAPTURA EL MOMENTO <br>
-            CUENTA UNA HISTORIA
-          </h3>
-          <br>
-          <p>
-            Descubre Pabellón de Arteaga a través de tu lente. Cada rincón es una oportunidad para transformar lo cotidiano en arte.
-          </p>
-          
-        
+        <div class="grid">
+
+            <!-- HACIENDA MEZQUITE -->
+            <div class="hacienda-card">
+                <img src="img/haciendas/mezquite/mezquite1.jpg">
+                <div class="contenido">
+                    <h3>Hacienda El Mezquite</h3>
+                    <p>Origen en el siglo XVIII, evolucionó hacia comunidad ejidal.</p>
+                    <button class="btn-ver" onclick="openModal('mezquite')">Ver más</button>
+                </div>
+            </div>
+
+            <!-- SANTIAGO -->
+            <div class="hacienda-card">
+                <img src="img/haciendas/santiago/santiago1.jpg">
+                <div class="contenido">
+                    <h3>Hacienda de Santiago</h3>
+                    <p>Una de las más antiguas, con raíces religiosas.</p>
+                    <button class="btn-ver" onclick="openModal('santiago')">Ver más</button>
+                </div>
+            </div>
+
+            <!-- GARABATO -->
+            <div class="hacienda-card">
+                <img src="img/haciendas/garabato/garabato1.jpg">
+                <div class="contenido">
+                    <h3>Hacienda de Garabato</h3>
+                    <p>Destacó por su ganadería y toros de lidia.</p>
+                    <button class="btn-ver" onclick="openModal('garabato')">Ver más</button>
+                </div>
+            </div>
+
+            <!-- LETRAS -->
+            <div class="hacienda-card">
+                <img src="img/haciendas/h-letras/h-letras1.jpg">
+                <div class="contenido">
+                    <h3>Hacienda de Letras</h3>
+                    <p>Importante productora agrícola y vitivinícola.</p>
+                    <button class="btn-ver" onclick="openModal('letras')">Ver más</button>
+                </div>
+            </div>
+
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- INTRO -->
-<section class="txt-intro2-h">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-5 bienvenida_">
-        <div class="tt-sec">CAPTURA<span>.</span></div>
-        <br><br>
-        <p>
-          La Ruta Fotográfica Itinerante es un espacio para explorar, observar y crear. Participa en concursos y muestra tu visión del municipio.
-        </p>
-      </div>
-      <div class="col-sm-1"></div>
-      <div class="col-sm-6">
-        <img src="img/fotografica/slide.jpeg" class="img-fotografica">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CONCURSOS -->
-<section class="concursos-foto">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h3 class="text-center text-intro2">
-          CONCURSOS ACTIVOS
-          <p>Participa y forma parte de nuestra galería visual<span>.</span></p>
-        </h3>
-      </div>
     </div>
 
-    <div class="row mt-5">
-
-      <!-- CARD 1 -->
-      <div class="col-sm-4">
-        <div class="card-foto">
-          <div class="img-card foto1"></div>
-          <div class="info-card">
-            <h4>Colores de la Tierra</h4>
-            <p>Captura los paisajes y esencia natural del municipio.</p>
-            <a href="PDF/convocatoria_concurso_fotografia.pdf" download class="btn-foto"> Ver bases</a>
-          </div>
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-text"></div>
         </div>
-      </div>
-
-      <!-- CARD 2 -->
-      <div class="col-sm-4">
-        <div class="card-foto">
-          <div class="img-card foto2"></div>
-          <div class="info-card">
-            <h4>Tradiciones Vivas</h4>
-            <p>Retrata la cultura, eventos y vida cotidiana.</p>
-            <a href="PDF/convocatoria_concurso_fotografia.pdf" download class="btn-foto"> Ver bases</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 3 -->
-      <div class="col-sm-4">
-        <div class="card-foto">
-          <div class="img-card foto3"></div>
-          <div class="info-card">
-            <h4>Rostros de mi Tierra</h4>
-            <p>Historias contadas a través de personas.</p>
-            <a href="PDF/convocatoria_concurso_fotografia.pdf" download class="btn-foto"> Ver bases</a>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
-</section>
-
-<!-- BASES -->
-<section class="bases-foto">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h3 class="text-intro2-foto">BASES GENERALES</h3>
-      </div>
-    </div>
-
-    <div class="row mt-4">
-      <div class="col-sm-3">
-        <div class="base-box">Participación abierta</div>
-      </div>
-      <div class="col-sm-3">
-        <div class="base-box">Formato JPG / PNG</div>
-      </div>
-      <div class="col-sm-3">
-        <div class="base-box">Evaluación creativa</div>
-      </div>
-      <div class="col-sm-3">
-        <div class="base-box">Premios por convocatoria</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
 
 
 
@@ -244,6 +193,53 @@ Diseño alineado a tus otras rutas
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
+
+<script>
+    function openModal(tipo){
+    const contenido = {
+        mezquite: `
+        <h2>Hacienda El Mezquite</h2>
+        <p>La hacienda del Mezquite comenzó a poblarse en el siglo XVIII, consolidándose como una comunidad agrícola con el paso del tiempo.</p>
+        <p>En 1933, sus habitantes gestionaron la dotación de tierras conforme las leyes agrarias.</p>
+        <p>El dictamen oficial se emitió el 4 de octubre de 1935.</p>
+        `,
+        santiago: `
+        <h2>Hacienda de Santiago</h2>
+        <p>Origen en el siglo XVII, anteriormente conocida como San Jerónimo.</p>
+        <p>Desde 1680 existía actividad religiosa en el lugar.</p>
+        <p>Pasó por varios propietarios importantes.</p>
+        `,
+        garabato: `
+        <h2>Hacienda de Garabato</h2>
+        <p>Originalmente Hacienda de San Isidro Labrador.</p>
+        <p>Destacó por la crianza de toros de lidia en 1870.</p>
+        <p>Llegó a tener más de 1,000 hectáreas.</p>
+        `,
+        letras: `
+        <h2>Hacienda de Letras</h2>
+        <p>Fundada en 1854, destacada por producción agrícola y vitivinícola.</p>
+        <p>Ubicada cerca del camino real.</p>
+        <p>Miguel Hidalgo pernoctó aquí en 1811.</p>
+        `
+    };
+
+    document.getElementById("modal-text").innerHTML = contenido[tipo];
+    document.getElementById("modal").style.display = "block";
+    }
+
+    function closeModal(){
+    document.getElementById("modal").style.display = "none";
+    }
+
+    window.onclick = function(e){
+    const modal = document.getElementById("modal");
+    if(e.target == modal){
+        modal.style.display = "none";
+    }
+    }
+</script>
+
+
 
 </body>
 </html>
