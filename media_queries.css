@@ -407,11 +407,17 @@
     padding: 60px 0 0 0;
   }
 
-  .slide-g h3{
+  .slide-g h3,
+  .slide-c-c h3,
+  .slide-ho h3
+  .slide-h{
     font-size: 2rem;
   }
 
-  .slide-g p{
+  .slide-g p,
+  .slide-c-c p,
+  .slide-ho p,
+  .slide-h p{
     font-size: 1.1rem;
   }
 
