@@ -130,6 +130,22 @@
     height: auto;
   }
 
+  .mapa {
+    background:none;
+
+  }
+
+  .mapa-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mapa-img {
+    max-width: 100%;
+    height: auto;
+  }
+
   /*GARNACHA*/
   .slide-g{
     width: 90%;
