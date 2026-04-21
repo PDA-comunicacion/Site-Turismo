@@ -410,7 +410,7 @@
   .slide-g h3,
   .slide-c-c h3,
   .slide-ho h3
-  .slide-h{
+  .slide-h h3{
     font-size: 2rem;
   }
 
@@ -511,11 +511,18 @@
   }
 
   /*ENOTURISMO*/
-
+  .slide-g h3,
+  .slide-c-c h3,
+  .slide-ho h3,
+  .slide-h h3,
   .slide-vin h3{
     font-size: 1.1rem;
   }
 
+  .slide-g p,
+  .slide-c-c p,
+  .slide-ho p,
+  .slide-h p,
   .slide-vin p {
     font-size: 0.9rem;
   }
@@ -768,13 +775,19 @@
     width: 95%;
     padding-top: 40px;
   }
-
+  .slide-g h3,
+  .slide-c-c h3,
+  .slide-ho h3,
+  .slide-h h3,
   .slide-vin h3, 
   .slide-g h3,
   .slide-eco h3 {
     font-size: 1.5rem;
   }
-
+  .slide-g h3,
+  .slide-c-c h3,
+  .slide-ho h3,
+  .slide-h h3,
   .slide-vin p,  
   .slide-g p,
   .slide-eco p {
