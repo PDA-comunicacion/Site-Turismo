@@ -75,7 +75,7 @@
     <!-- HERO -->
     <section class="slide-haciendas">
         <div class="slide-h">
-            <div class="container">
+            <div class="container-h">
                 <div class="row">
                 <div class="col-sm-5 text-end">
                     <h3>Haciendas Históricas
@@ -95,7 +95,7 @@
         </div>
     </section>
 
-    <div class="container">
+    <div class="container-h">
         <div class="grid">
 
             <!-- HACIENDA MEZQUITE -->
@@ -140,6 +140,89 @@
 
         </div>
     </div>
+
+
+    <!-- HERO -->
+    <section class="slide-barrios">
+        <div class="slide-b">
+            <div class="container-h">
+                <div class="row">
+                <div class="col-sm-5 text-end">
+                    <h3>ANTIGUOS BARRIOS
+                    </h3>
+                    <br>
+                    <br><br><br>
+                    <p>
+                    Recorre los Antiguos Barrios y déjate envolver por su historia, tradiciones y arquitectura llena de encanto. Cada rincón guarda relatos del pasado que siguen vivos en su cultura, convirtiéndolos en un viaje auténtico al corazón del destino.
+                    </p>
+                    <br><br><br><br><br><br><br>
+                </div>
+                <div class="col-sm-7 text-end">
+                
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-h">
+        <div class="grid">
+
+            <!-- CARBONERAS -->
+            <div class="hacienda-card">
+                <img src="img/barrios/carboneras/carboneras1.jpg">
+                <div class="contenido">
+                    <h3>CARBONERAS</h3>
+                    <p>Donde el trabajo y la tradición forjaron su identidad.</p>
+                    <button class="btn-ver" onclick="openModal('carboneras')">Ver más</button>
+                </div>
+            </div>
+
+            <!-- PALO ALTO -->
+            <div class="hacienda-card">
+                <img src="img/barrios/palo-alto/palo-alto2.jpg">
+                <div class="contenido">
+                    <h3>PALO ALTO</h3>
+                    <p>El origen de un pueblo que creció junto al camino.</p>
+                    <button class="btn-ver" onclick="openModal('paloalto')">Ver más</button>
+                </div>
+            </div>
+
+            <!-- EL NUMERO 11 -->
+            <div class="hacienda-card">
+                <img src="img/barrios/numero11/numero11-5.jpg">
+                <div class="contenido">
+                    <h3>EL NUMERO 11</h3>
+                    <p>Donde nació el comercio que dio vida al poblado.</p>
+                    <button class="btn-ver" onclick="openModal('elnumero11')">Ver más</button>
+                </div>
+            </div>
+
+            <!-- EL CASINO DE LA SELVA -->
+            <div class="hacienda-card">
+                    <img src="img/barrios/casino-selva/casino1.jpg">
+                    <div class="contenido">
+                    <h3>EL CASINO DE LA SELVA</h3>
+                    <p>Historia viva que resguarda la memoria de la comunidad.</p>
+                    <button class="btn-ver" onclick="openModal('casinoselva')">Ver más</button>
+                </div>
+            </div>
+
+            <!-- LA ESTACIÓN -->
+            <div class="hacienda-card">
+                <img src="img/barrios/estacion/estacion2.jpg">
+                <div class="contenido">
+                    <h3>LA ESTACIÓN</h3>
+                    <p>El punto donde comenzó el movimiento de toda una región.</p>
+                    <button class="btn-ver" onclick="openModal('laestacion')">Ver más</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
 
     <!-- MODAL -->
     <div id="modal" class="modal">
@@ -200,27 +283,59 @@
         mezquite: `
         <h2>Hacienda El Mezquite</h2>
         <p>La hacienda del Mezquite comenzó a poblarse en el siglo XVIII, consolidándose como una comunidad agrícola con el paso del tiempo.</p>
-        <p>En 1933, sus habitantes gestionaron la dotación de tierras conforme las leyes agrarias.</p>
-        <p>El dictamen oficial se emitió el 4 de octubre de 1935.</p>
         `,
         santiago: `
         <h2>Hacienda de Santiago</h2>
         <p>Origen en el siglo XVII, anteriormente conocida como San Jerónimo.</p>
-        <p>Desde 1680 existía actividad religiosa en el lugar.</p>
-        <p>Pasó por varios propietarios importantes.</p>
         `,
         garabato: `
         <h2>Hacienda de Garabato</h2>
         <p>Originalmente Hacienda de San Isidro Labrador.</p>
-        <p>Destacó por la crianza de toros de lidia en 1870.</p>
-        <p>Llegó a tener más de 1,000 hectáreas.</p>
         `,
         letras: `
         <h2>Hacienda de Letras</h2>
         <p>Fundada en 1854, destacada por producción agrícola y vitivinícola.</p>
-        <p>Ubicada cerca del camino real.</p>
-        <p>Miguel Hidalgo pernoctó aquí en 1811.</p>
-        `
+        `,
+        carboneras: `
+        <h2><b>Carboneras</b></h2>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Origen ligado a la extracción de carbón</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Transporte de cal utilizando burros</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Fundado por pobladores con tradición minera</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Identidad basada en el esfuerzo y la comunidad</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Nombre derivado de su actividad principal</p>
+        `,
+        paloalto: `
+        <h2><b>Palo Alto</b></h2>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Fundado por habitantes de Palo Alto, El Llano</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Crecimiento ligado a la estación del ferrocarril</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Surge por la repartición de tierras</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Primeras viviendas del ejido</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Base del desarrollo del barrio</p>
+        `,
+        elnumero11: `
+        <h2><b>El numero 11</b></h2>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Construido en 1936 por Refugio Reyes</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Primer centro comercial local</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Venta de ropa, maquinaria y artículos agrícolas</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Punto clave en el desarrollo económico</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Propiedad de comerciantes pioneros</p>
+        `,
+        casinoselva: `
+        <h2><b>El Casino de la Selva</b></h2>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Construido en 1938</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Inspirado en el Casino de la Selva</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Uno de los primeros puntos de comercio</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Abastecimiento de productos regionales</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Actualmente Archivo Histórico del municipio</p>
+        `,
+        laestacion: `
+        <h2><b>La Estación</b></h2>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Inaugurada el 25 de septiembre de 1942</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Construcción tradicional con ladrillo, piedra y rieles</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Punto clave para el transporte de pasajeros y mercancías</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Impulsó el desarrollo y la comunicación regional</p>
+        <p><i class="fa-solid fa-chevron-right fa-2xs"></i> Actualmente funciona como museo histórico</p>
+        `,
     };
 
     document.getElementById("modal-text").innerHTML = contenido[tipo];
