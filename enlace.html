@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Por qué Pabellón de Arteaga?</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="media_queries.css">
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700,900" rel="stylesheet">
+  <link href="fonts/fonts.css" rel="stylesheet">
+
+  <!-- Flickity (Carrusel) -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity-fade@1/flickity-fade.css">
+
+  <!-- Íconos Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://kit.fontawesome.com/f7267c62e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+
+          <!-- Logos -->
+          <div class="d-flex align-items-center gap-2">
+              <a href="https://www.pabellon.gob.mx/">
+                  <img class="logo-mp" src="img/logo-pabellon.png" alt="Logo Municipio">
+              </a>
+              <a href="index.html">
+                  <img src="img/logo-mnu.png" class="img-logo" alt="Pabellón de Arteaga">
+              </a>
+          </div>
+
+          <!-- Botón hamburguesa -->
+          <button class="navbar-toggler btn-floating-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarRoutes">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menú colapsable -->
+          <div class="collapse navbar-collapse align-items-center" id="navbarRoutes">
+              <ul class="nav-icons mb-0">
+                <li><a href="enoturismo.html"><img src="img/icons/Ruta_Enoturismo.png">Enoturismo</a></li>
+                <li><a href="#"><img src="img/icons/Ruta_Religiosa.png">Religiosa</a></li>
+                <li><a href="ecoturismo.html"><img src="img/icons/Ruta_Ecoturismo_y_Turismo_Aventura.png">Ecoturismo </a></li>
+                <li><a href="#"><img src="img/icons/Ruta_Haciendas.png">Haciendas</a></li>
+                <li><a href="garnacha.html"><img src="img/icons/Ruta_de_la_Garnacha.png"> Garnacha</a></li>  
+                <li><a href="#"><img src="img/icons/Ruta_Arqueológica.png">Arqueológica</a></li>
+                <li><a href="fotografica.html"><img src="img/icons/Ruta_Fotográfica.png">Fotográfica</a></li>  
+                <li><a href="holistica.html"><img src="img/icons/Ruta_Holística.png">Holística</a></li>
+                <li><a href="#"><img src="img/icons/Ruta_Centro_Cultural.png">C. Cultural</a></li>
+                <li><a href="#"><img src="img/icons/Ruta_de_Enlace.png">De Enlace</a></li>
+              </ul>
+          </div>
+
+      </div>
+  </nav>
+  <!--Textura 1-->
+  <div class="textura">
+      <img src="img/textura2.png" alt="">
+  </div>
+
+  
+
+  <!-- HERO -->
+    <section class="slide-enlace">
+        <div class="foto-enlace">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <br><br>
+                    <h3>
+                        Descubre los lugares, sabores y experiencias que hacen único a Aguascalientes.
+
+                    </h3>
+                    <br>
+                    <!-- <p>
+                        Descubre cultura, gastronomía y naturaleza cerca de Pabellón de Arteaga
+                    </p> -->
+                    
+                    <a href="#rutas" class="btn btn-light btn-ruta mt-3">Explorar rutas</a>
+                </div>
+                <div class="col-sm-6 text-end">
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container" id="rutas">
+
+        <!-- TABS -->
+        <ul class="nav nav-tabs justify-content-center mb-4" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#real" type="button" role="tab">Real de Asientos</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#sanpancho" type="button" role="tab">San Francisco</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#sjg" type="button" role="tab">San José de Gracia</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#hidalgo" type="button" role="tab">Pabellón de Hidalgo</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tepezala" type="button" role="tab">Tepezalá</button></li>
+        </ul>
+
+        <div class="tab-content">
+
+            <!-- REAL DE ASIENTOS -->
+            <div class="tab-pane fade show active" id="real">
+                
+                <h3 class="section-title">🏛️ Real de Asientos</h3>
+                <p class="section-sub">Explora su pasado minero y sus túneles llenos de historia</p>
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+
+                            <!-- Carrusel -->
+                            <div id="carouselTuneles" class="carousel slide mb-3 carousel-enlace" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/enlace/Asientos/Tuneles/tunel5.JPG" class="d-block w-100" alt="Túneles 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/enlace/Asientos/Tuneles/tunel1.JPG" class="d-block w-100" alt="Túneles 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/enlace/Asientos/Tuneles/tunel3.JPG" class="d-block w-100" alt="Túneles 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/enlace/Asientos/Tuneles/tunel4.JPG" class="d-block w-100" alt="Túneles 4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/enlace/Asientos/Tuneles/tunel2.JPG" class="d-block w-100" alt="Túneles 5">
+                                    </div>
+                                </div>
+
+                                <!-- Botones -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTuneles" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselTuneles" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                            <h5>🕳️ Túneles Subterráneos</h5>
+                            <p>Recorrido guiado y experiencia minera.</p>
+                            <p><i class="fa fa-map-marker-alt"></i> Plaza Juárez</p>
+                            <p><i class="fa fa-clock"></i> 10:00 – 18:00</p>
+                            <p><i class="fa fa-dollar-sign"></i> $15 / $10</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>⚰️ Panteón de Guadalupe</h5>
+                            <p>Historia y tradición local.</p>
+                            <p><i class="fa fa-map-marker-alt"></i> Calzada Guadalupe</p>
+                            <p><i class="fa fa-clock"></i> 10:00 – 18:00</p>
+                            <p><i class="fa fa-dollar-sign"></i> $15 / $10</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>⛪ Santuario del Tepozán</h5>
+                            <p>Perfecto para fotos al atardecer.</p>
+                            <p><i class="fa fa-map-marker-alt"></i> Carretera Rincón de Romos</p>
+                            <p><i class="fa fa-clock"></i> 10:00 – 18:00</p>
+                            <p><i class="fa fa-dollar-sign"></i> $15 / $10</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- SAN PANCHO -->
+            <div class="tab-pane fade" id="sanpancho">
+
+                <h3 class="section-title">🌮 San Francisco de los Romo</h3>
+                <p class="section-sub">Capital de las carnitas</p>
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>🔥 Carnitas El Taco Loco</h5>
+                            <p>Tradición y sabor auténtico.</p>
+                            <p><i class="fa fa-map-marker-alt"></i> Benito Juárez Sur</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>🥙 Gorditas San Pancho</h5>
+                            <p>Combinación única de gorditas y carnitas.</p>
+                            <p><i class="fa fa-map-marker-alt"></i> Centro</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>🍖 Carnitas El Retorno</h5>
+                            <p>Sabor casero menos grasoso.</p>
+                            <p><i class="fa fa-map-marker-alt"></i> Centro</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- SAN JOSE -->
+            <div class="tab-pane fade" id="sjg">
+
+                <h3 class="section-title">🌄 San José de Gracia</h3>
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>🌊 Presa Calles</h5>
+                            <p>Fotos y desayuno.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                        <h5>✝️ Cristo Roto</h5>
+                            <p>Paseo en lancha y mirador.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>🌲 Sierra Fría</h5>
+                            <p>Senderismo y picnic.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- HIDALGO -->
+            <div class="tab-pane fade" id="hidalgo">
+
+                <h3 class="section-title">🏛️ Pabellón de Hidalgo</h3>
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>📜 Museo de la Insurgencia</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>⛪ Parroquia de San Blas</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>🌅 Presa de San Blas</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TEPEZALA -->
+            <div class="tab-pane fade" id="tepezala">
+
+                <h3 class="section-title">🌌 Tepezalá</h3>
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>🏺 Museo Antonio Reyna</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>⛰️ Montañas de Altamira</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-ruta p-3">
+                            <h5>🔭 Observatorio</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+  <!--Textura 2-->
+  <div class="textura2"></div>
+
+   <!-- FOOTER -->
+  <footer class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Logo -->
+        <div class="col-sm-4">
+          <img src="img/logo-menu-icons.png" class="img-fluid">
+        </div>
+
+        <!-- Enlaces -->
+        <div class="col-sm-4">
+          <ul class="list-unstyled">
+            <li><a href="https://maps.app.goo.gl/DymPBhSuMqtYDJF59" class="text-white"> <i class="fa-solid fa-map-marker-alt"></i> Pino Suárez 14, Zona Centro, 20670 Pabellón de Arteaga, Ags.</a></li>
+            <li><a href="tel:+524659588011" class="text-white"><i class="fa-solid fa-phone"></i> 465-958-8011</a></li>
+            <li class="text-white"><i class="fa-solid fa-clock"></i> Lunes a Viernes: 8:00 AM - 3:30 PM</a></li>
+          </ul>
+        </div>
+
+        <!-- Derechos y redes -->
+        <div class="col-sm-4 firmas">
+          <p>2026 ¿POR QUÉ PABELLÓN DE ARTEAGA?&trade; | Aviso de Privacidad</p>
+          <div class="social-icons">
+            <a style="display:inline !important;" href="https://www.facebook.com/ConocePabellon/"><i class="fa-brands fa-facebook"></i></a>
+            <a style="display:inline !important;" href="https://www.instagram.com/pabellon.gob"><i class="fa-brands fa-instagram"></i></a>
+            <!-- <a style="display:inline !important;" href="https://www.youtube.com/pabellon.gob"><i class="fa-brands fa-youtube"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
+
+
+
+</body>
+</html>
