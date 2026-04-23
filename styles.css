@@ -2183,7 +2183,7 @@ address {
     width: 100%;
 }
 .foto-enlace{
-  background:url(img/enlace/Tepezala/Observatorio1.JPG) no-repeat center;
+  background:url(img/enlace/Tepezala/Observatorio/Observatorio1.JPG) no-repeat center;
   background-size:cover;
   border-radius:50px;
   width:90%;
@@ -2209,6 +2209,7 @@ address {
   font-size: 1.1rem;
   font-weight: 600;
 }
+
 
 
 
@@ -2255,15 +2256,30 @@ address {
   font-weight: 600;
 } 
 
-.card-ruta p{
+.card-ruta p,
+.card-ruta ul li{
+  font-family: var(--font-secondary);
   color: var(--color-navy-deep);
   font-weight: 500;
   opacity: 0.9;
 }
+.card-ruta a{
+  font-family: var(--font-secondary);
+  color: var(--color-navy-deep);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.card-ruta a:hover{
+  color: var(--color-navy-deep);
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+}
+
 
 
 /* CARRUSEL */
-#carouselTuneles {
+#carouselTuneles, #carouselTepozan, #carouselGuadalupe {
   width: 90%;
   height: auto;
   margin: 0rem auto;
