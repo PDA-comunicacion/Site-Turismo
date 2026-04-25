@@ -314,7 +314,7 @@
 
   /* LOGO */
   footer .img-fluid {
-    width: 60%;
+    width: auto;
     margin: 0 auto 20px auto;
     display: block;
   }

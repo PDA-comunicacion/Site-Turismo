@@ -2279,7 +2279,12 @@ address {
 
 
 /* CARRUSEL */
-#carouselTuneles, #carouselTepozan, #carouselGuadalupe {
+#carouselTuneles, 
+#carouselTepozan, 
+#carouselGuadalupe, 
+#carouselAntonio, 
+#carouselAltamira, 
+#carouselObservatorio {
   width: 90%;
   height: auto;
   margin: 0rem auto;
