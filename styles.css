@@ -1995,6 +1995,7 @@ address {
   border-radius:30px;
   color: var(--color-gray-light);
   font-weight:bold;
+  text-decoration: none;
 }
 
 .lightbox{

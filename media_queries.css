@@ -515,7 +515,9 @@
   .slide-c-c h3,
   .slide-ho h3,
   .slide-h h3,
-  .slide-vin h3{
+  .slide-vin h3,
+  .slide-r h3,
+  .slide-enlace h3{
     font-size: 1.1rem;
   }
 
@@ -605,7 +607,7 @@
   }
 
   .text-intro2 {
-    line-height: 40px !important;
+    line-height: 30px !important;
   }
 
   .text-intro2 p {
@@ -781,7 +783,9 @@
   .slide-h h3,
   .slide-vin h3, 
   .slide-g h3,
-  .slide-eco h3 {
+  .slide-eco h3,
+  .slide-r h3,
+  .slide-enlace h3{
     font-size: 1.5rem;
   }
   .slide-g h3,
