@@ -2052,7 +2052,7 @@ address {
   color: var(--color-white);
   text-shadow: 2px 2px 4px black;
   color: var(--color-white);
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 10px;
   border-radius: 20px;
 }
@@ -2065,7 +2065,7 @@ address {
   width: 100%;
   font-size: 1.3rem;
   font-weight: 600;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 10px;
   border-radius: 20px;
 }
