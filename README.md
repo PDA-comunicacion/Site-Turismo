@@ -19,7 +19,8 @@ Para el desarrollo de este portal se emplearon las siguientes herramientas y len
 
 * **Frontend:** HTML5, CSS3 y JavaScript para una estructura robusta y diseño personalizado.
 * **Bootstrap 5:** Framework utilizado para garantizar un diseño responsivo y componentes modernos.
-* **Bibliotecas JS:** * **Flickity:** Para la creación de carruseles de imágenes y galerías interactivas.
+* **Bibliotecas JS:** 
+    * **Flickity:** Para la creación de carruseles de imágenes y galerías interactivas.
     * **jQuery:** Para la manipulación del DOM y efectos de transición suave.
 * **Iconografía:** Font Awesome para mejorar la interfaz de usuario.
 * **Tipografía:** Google Fonts (*Montserrat*) y fuentes personalizadas (*Coolvetica*).
