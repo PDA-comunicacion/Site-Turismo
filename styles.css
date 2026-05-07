@@ -952,15 +952,17 @@ address {
 
 .bullet-v { 
   position: absolute;
-  bottom: 20px;   
+  margin-top: 500px; /*CAMBIAR SI ES NECESARIO, ES LA ALTURA DE ICONO*/
+  /* bottom: 20px;    */
   right: 20px;   
   width: 100px;  
   height: auto;
   z-index: 10; 
 }  
 .bullet { 
-    width: 100px;
-    float: right;
+  width: 100px;
+  float: right;
+  margin-top: 300px; /*CAMBIAR SI ES NECESARIO, ES LA ALTURA DE ICONO*/
 }
 
 .principal { 
@@ -1639,9 +1641,9 @@ address {
   background-position:center;
 }
 
-.foto1{background:url(img/fotografica/DJI_0157.jpg) center/cover;}
-.foto2{background:url(img/fotografica/DJI_0198.jpg) center/cover;}
-.foto3{background:url(img/fotografica/PXL02429.jpg) center/cover;}
+.foto1{background:url(img/fotografica/mariposa.jpeg) center/cover;}
+.foto2{background:url(img/fotografica/danza.jpeg) center/cover;}
+.foto3{background:url(img/fotografica/reina.jpeg) center/cover;}
 
 .info-card{
   padding:20px;
