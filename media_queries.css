@@ -794,17 +794,19 @@
   .slide-g h3,
   .slide-eco h3,
   .slide-r h3,
-  .slide-enlace h3{
-    font-size: 1.3rem;
+  .slide-enlace h3 {
+    font-size: 1rem;
   }
-  .slide-g h3,
-  .slide-c-c h3,
-  .slide-ho h3,
-  .slide-h h3,
+  .slide-g p,
+  .slide-c-c p,
+  .slide-ho p,
+  .slide-h p,
   .slide-vin p,  
   .slide-g p,
-  .slide-eco p {
-    font-size: 0.8rem;
+  .slide-eco p,
+  .slide-r p,
+  .slide-enlace p {
+    font-size: 0.9rem;
   }
   img .buton_,
   .buton_{
