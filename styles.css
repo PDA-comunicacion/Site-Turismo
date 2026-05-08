@@ -1420,10 +1420,6 @@ address {
   color: #fcc124;
 }
 
-.horario-eco {
-  color: #ffffff;
-  font-family: "Coolvetica";
-}
 
 /*Galeria de ecoturismo*/
 /* SPA TONALLI */
@@ -1785,7 +1781,7 @@ address {
 }
 
 .modal-content{
-  background:#fff;
+  background:rgba(62, 150, 210,0.8);
   margin:5% auto;
   padding:30px;
   width:90%;
@@ -1797,6 +1793,17 @@ address {
   float:right;
   font-size:25px;
   cursor:pointer;
+}
+
+.haciendas-h,
+.haciendas-h h2{
+  font-family: var(--font-primary);
+  font-weight: 600;
+  /* text-shadow: #000 1px 1px 2px; */
+}
+
+.address-haciendas{
+  background: rgba(19, 67, 117, 0.7);
 }
 
 /*==========================*/
@@ -1945,15 +1952,7 @@ address {
   color: var(--color-white);
 }
 
-.modal-content{
-  background:var(--color-sky-blue);
-  margin:5% auto;
-  padding:30px;
-  width:90%;
-  max-width:800px;
-  border-radius:20px;
-  animation:fade .4s;
-}
+
 
 @keyframes fade{
   from{opacity:0; transform:translateY(30px);}
