@@ -979,15 +979,23 @@ address {
     max-height: 100%; 
 }
 
+#tittle-h{
+  text-shadow: 2px 2px 0px #505050;
+}
+
 #servicios {
-    /* color: hsl(327, 100%, 50%); */
-    color: var(--color-magenta-vivid);
-    text-shadow: 2px 2px 0px #505050;
+  color: var(--color-magenta-vivid);
+  text-shadow: 2px 2px 0px #505050;
 }
 
 #actividades {
-    color: #fcc124;
-    text-shadow: 2px 2px 0px #505050;
+  color: #fcc124;
+  text-shadow: 2px 2px 0px #505050;
+}
+
+#eventos {
+  color: #29a6fa;
+  text-shadow: 2px 2px 0px #505050;
 }
 
 .fa-wine-glass-empty{
@@ -1781,7 +1789,7 @@ address {
 }
 
 .modal-content{
-  background:rgba(62, 150, 210,0.8);
+  background:rgba(19, 67, 117,0.8);
   margin:5% auto;
   padding:30px;
   width:90%;
@@ -1804,7 +1812,7 @@ address {
 }
 
 .address-haciendas{
-  background: rgba(19, 67, 117, 0.7);
+  background: rgba(62, 150, 210, 0.7);
   letter-spacing: 0.5px;
 }
 .hdas{
