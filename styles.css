@@ -887,16 +887,16 @@ address {
   background: rgba(0, 159, 227, 0.4);
   border-radius: 15px;
   font-family: var(--font-primary);
-  font-size: 1.1rem;
 }
 
-.address-viñedo a {
+.address-viñedo a,
+.address-viñedo p {
     color: #ffffff;
     text-decoration: none;
     font-family: var(--font-primary);
     font-weight: 600;
-    margin-top: 5px;
     display: block;
+    margin: 0;
 }
 
 .address-viñedo a:hover {
@@ -1799,11 +1799,16 @@ address {
 .haciendas-h h2{
   font-family: var(--font-primary);
   font-weight: 600;
+  letter-spacing: 0.5px;
   /* text-shadow: #000 1px 1px 2px; */
 }
 
 .address-haciendas{
   background: rgba(19, 67, 117, 0.7);
+  letter-spacing: 0.5px;
+}
+.hdas{
+  font-size: 1rem;
 }
 
 /*==========================*/

@@ -98,16 +98,6 @@
     <div class="container-h">
         <div class="grid">
 
-            <!-- HACIENDA MEZQUITE -->
-            <div class="hacienda-card">
-                <img src="img/haciendas/mezquite/mezquite1.jpg">
-                <div class="contenido">
-                    <h3>Hacienda El Mezquite</h3>
-                    <p>Origen en el siglo XVIII, evolucionó hacia comunidad ejidal.</p>
-                    <button class="btn-ver" onclick="openModal('mezquite')">Ver más</button>
-                </div>
-            </div>
-
             <!-- SANTIAGO -->
             <div class="hacienda-card">
                 <img src="img/haciendas/santiago/santiago1.jpg">
@@ -135,6 +125,16 @@
                     <h3>Hacienda de Letras</h3>
                     <p>Importante productora agrícola y vitivinícola.</p>
                     <button class="btn-ver" onclick="openModal('letras')">Ver más</button>
+                </div>
+            </div>
+
+            <!-- HACIENDA MEZQUITE -->
+            <div class="hacienda-card">
+                <img src="img/haciendas/mezquite/mezquite1.jpg">
+                <div class="contenido">
+                    <h3>Hacienda El Mezquite</h3>
+                    <p>Origen en el siglo XVIII, evolucionó hacia comunidad ejidal.</p>
+                    <button class="btn-ver" onclick="openModal('mezquite')">Ver más</button>
                 </div>
             </div>
 
@@ -287,13 +287,42 @@
         <p>🔄 Evolución administrativa e histórica dentro de la región</p>
         `,
         santiago: `
-        <h2>Hacienda de Santiago</h2>
-        <p>📅 Origen en el siglo XVII</p>
-        <p>🏷️ Nombre anterior: San Jerónimo</p>
-        <p>📖 Registros desde 1680 con actividad religiosa</p>
-        <p>👥 Pasó por varios propietarios importantes</p>
-        <p>👨‍👩‍👧‍👦 Actualmente dividida entre familia Loera Rosales y ejidatarios</p>
-        <p>🏛️ Conserva relevancia histórica en la región</p>
+        <div class="container haciendas-h">
+            <h2>Hacienda de Santiago</h2>
+            <p>📅 Origen en el siglo XVII</p>
+            <p>🏷️ Nombre anterior: San Jerónimo</p>
+            <p>📖 Registros desde 1680 con actividad religiosa</p>
+            <p>👥 Pasó por varios propietarios importantes</p>
+            <p>👨‍👩‍👧‍👦 Actualmente dividida entre familia Loera Rosales y ejidatarios</p>
+            <p>🏛️ Conserva relevancia histórica en la región</p>
+        </div>
+        <div class="container haciendas-h">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2><i class="fa-solid fa-person-hiking"></i> Actividades </h2>
+                    <p>⛪ Recorrido por la Capilla</p>
+                    <p>📜 Turismo Histórico</p>
+                    <p>📸 Fotografía de Época</p>
+                    <p>🚶 Caminatas Guiadas</p>
+                </div>
+                <div class="col-sm-6">
+                    <h2><i class="fa-solid fa-concierge-bell"></i> Servicios </h2>
+                    <p>💍 Eventos Sociales</p>
+                    <p>⛪ Servicios Religiosos</p>
+                    <p>🎥 Locación para Filmaciones</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!--Información de contacto-->
+            <address class="address-viñedo address-haciendas">
+                <!--Ubicación-->
+                <a href="https://maps.app.goo.gl/NJYhjcWj2G7kHBKRA" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> Haciendas de Pabellón, 20673 Pabellón de Arteaga, Aguascalientes.</a><br>
+                <!--Acceso-->
+                <p><i class="fa-solid fa-door-open"></i> Acceso: Se recomienda reservar previamente o acudir mediante un tour operador certificado de Aguascalientes.</p><br>
+                
+            </address>
+        </div>
         `,
         garabato: `
         <div class="container haciendas-h">
@@ -308,14 +337,14 @@
         </div>
         <div class="container haciendas-h">
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-sm-6">
                     <h2><i class="fa-solid fa-person-hiking"></i> Actividades </h2>
                     <p>📜 Recorridos Históricos</p>
                     <p>🍷 Ruta del Vino</p>
                     <p>🏃🏻‍♂️‍➡️ Paseo en bicibleta</p>
                     <p>🚶🏻‍♂️‍➡️ Paseo guiado</p>
                 </div>
-                <div class="col-sm-7">
+                <div class="col-sm-6">
                     <h2><i class="fa-solid fa-concierge-bell"></i> Servicios </h2>
                     <p>💍 Bodas y Eventos Sociales</p>
                     <p>⛪ Capilla Privada</p>
@@ -332,11 +361,8 @@
                 <a href="https://maps.app.goo.gl/FSggpb7sJp9mh3Ur6" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> Carretera Col. Nueva "El Milagro", Km 6, Ejido de Garabato, 20666 Ags.</a><br>
                 <!--Teléfono-->
                 <a href="tel:+524494415624" target="_blank"><i class="fa-solid fa-phone"></i> T. 449 441 5624 </a><br>
-                <!--Horario-->
-                <p class="horario-eco"><i class="fa-solid fa-clock"></i> Horario de atención:</p>
-                <ul class="horario-eco">
-                    <li>Lunes a Domingo: 10:00 – 18:00 h</li>
-                </ul>
+                <!--Acceso-->
+                <p><i class="fa-solid fa-door-open"></i> Acceso: Es indispensable agendar tu visita vía redes sociales o teléfono, ya que es una propiedad privada.</p><br>
                 <!--WhatsApp-->
                 <a href="https://wa.me/524499047311" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> T. 449 904 7311</a><br>
                 <!--Instagram-->                     
@@ -345,21 +371,62 @@
                 <a href="mailto:haciendagarabato@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> haciendagarabato@gmail.com</a><br>
             </address>
         </div>
-    
-
-
-        
-        
         `,
         letras: `
-        <h2>Hacienda de Letras</h2>
-        <p>📅 Fundada en 1854</p>
-        <p>🌾 Importante productora agrícola y ganadera</p>
-        <p>🍷 Destacó por el cultivo de la vid por más de 40 años</p>
-        <p>🛤️ Ubicada cerca del Camino Real, abastecía minas de Zacatecas</p>
-        <p>🏛️ Contaba con casa grande, templo y áreas de servicio</p>
-        <p>📜 Origen ligado a mercedes de tierras (siglos XVI–XVII)</p>
-        <p>⭐ Relevancia histórica: paso de Miguel Hidalgo y Costilla en 1811</p>
+        <div class="container haciendas-h">
+            <h2>Hacienda de Letras</h2>
+            <p>📅 Fundada en 1854</p>
+            <p>🌾 Importante productora agrícola y ganadera</p>
+            <p>🍷 Destacó por el cultivo de la vid por más de 40 años</p>
+            <p>🛤️ Ubicada cerca del Camino Real, abastecía minas de Zacatecas</p>
+            <p>🏛️ Contaba con casa grande, templo y áreas de servicio</p>
+            <p>📜 Origen ligado a mercedes de tierras (siglos XVI–XVII)</p>
+            <p>⭐ Relevancia histórica: paso de Miguel Hidalgo y Costilla en 1811</p>
+        </div>
+        <div class="container haciendas-h">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2><i class="fa-solid fa-person-hiking"></i> Actividades </h2>
+                    <p>🍇 Recorridos por Viñedos</p>
+                    <p>🍷 Catas Dirigidas</p>
+                    <p>🧺 Picnics entre Vides</p>
+                    <p>🪵 Visita a la Cava</p>
+                </div>
+                <div class="col-sm-6">
+                    <h2><i class="fa-solid fa-concierge-bell"></i> Servicios </h2>
+                    <p>🍴 Restaurante</p>
+                    <p>🏡 Cabañas y Hospedaje</p>
+                    <p>🛒 Boutique de Vino</p>
+                    <p>⛪ Capilla Histórica</p>
+                    <p>🏢 Eventos Corporativos</p>
+                </div>
+                <div>
+                    <h2><i class="fa-solid fa-masks-theater"></i> Eventos y Festivales </h2>
+                    <p>🍇 Fiesta de la Vendimia</p>
+                    <p>🎸 Festivales Temáticos</p>
+                    <p>💍 Bodas y Eventos Sociales</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!--Información de contacto-->
+            <address class="address-viñedo address-haciendas">
+                <!--Ubicación-->
+                <a href="https://maps.app.goo.gl/ZdrD814ptGuSS7rz8" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> San Luis de Letras, Ags.</a><br>
+                <!--Teléfono-->
+                <a href="tel:+524492795020" target="_blank"><i class="fa-solid fa-phone"></i> T. 449 279 5020 </a><br>
+                <!--Horario-->
+                <p class="horario-eco hdas"><i class="fa-solid fa-clock"></i> Horario de atención:</p>
+                <ul class="horario-eco hdas">
+                    <li>Todos los días: 11:00 – 19:00 h</li>
+                </ul>
+                <!--Instagram--> 
+                <a href="https://www.instagram.com/haciendadeletrasoficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> haciendadeletrasoficial</a><br>
+                <!--Correo electrónico-->
+                <a href="mailto:haciendadeletras@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> haciendadeletras@gmail.com</a><br>
+            </address>
+        </div>
+
         `,
         carboneras: `
         <h2><b>Carboneras</b></h2>
