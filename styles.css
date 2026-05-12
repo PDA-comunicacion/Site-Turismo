@@ -1010,86 +1010,87 @@ address {
 /* ================================
    VIÑEDO – REAL DE PLATA / IMAGENES CARRUSEL
    ================================ */
-.vin1a { background: url(img/viñedos/realdeplata/realdeplata1.jpg) no-repeat center; background-size:cover; }
-.vin1b { background: url(img/viñedos/realdeplata/realdeplata2.jpg) no-repeat center; background-size:cover; }
-.vin1c { background: url(img/viñedos/realdeplata/realdeplata3.jpg) no-repeat center; background-size:cover; }
-.vin1d { background: url(img/viñedos/realdeplata/realdeplata4.jpg) no-repeat center; background-size:cover; }
+.vin1a { background: url(img/viñedos/realdeplata/realdeplata1.webp) no-repeat center; background-size:cover; }
+.vin1b { background: url(img/viñedos/realdeplata/realdeplata2.webp) no-repeat center; background-size:cover; }
+.vin1c { background: url(img/viñedos/realdeplata/realdeplata3.webp) no-repeat center; background-size:cover; }
+.vin1d { background: url(img/viñedos/realdeplata/realdeplata4.webp) no-repeat center; background-size:cover; }
 
 /* ================================
    VIÑEDO – HACIENDA LETRAS / IMAGENES CARRUSEL
    ================================ */
-.vin2a { background: url(img/viñedos/haciendaletras/letras1.jpg) no-repeat center; background-size:cover; }
-.vin2b { background: url(img/viñedos/haciendaletras/letras2.jpg) no-repeat center; background-size:cover; }
-.vin2c { background: url(img/viñedos/haciendaletras/letras3.jpg) no-repeat center; background-size:cover; }
-.vin2d { background: url(img/viñedos/haciendaletras/letras4.jpg) no-repeat center; background-size:cover; }
-.vin2e { background: url(img/viñedos/haciendaletras/letras5.jpg) no-repeat center; background-size:cover; }
-.vin2f { background: url(img/viñedos/haciendaletras/letras6.jpg) no-repeat center; background-size:cover; }
-.vin2g { background: url(img/viñedos/haciendaletras/letras7.jpg) no-repeat center; background-size:cover; }
+.vin2a { background: url(img/viñedos/haciendaletras/letras1.webp) no-repeat center; background-size:cover; }
+.vin2b { background: url(img/viñedos/haciendaletras/letras2.webp) no-repeat center; background-size:cover; }
+.vin2c { background: url(img/viñedos/haciendaletras/letras3.webp) no-repeat center; background-size:cover; }
+.vin2d { background: url(img/viñedos/haciendaletras/letras4.webp) no-repeat center; background-size:cover; }
+.vin2e { background: url(img/viñedos/haciendaletras/letras5.webp) no-repeat center; background-size:cover; }
+.vin2f { background: url(img/viñedos/haciendaletras/letras6.webp) no-repeat center; background-size:cover; }
+.vin2g { background: url(img/viñedos/haciendaletras/letras7.webp) no-repeat center; background-size:cover; }
 
 /* ================================
    VIÑEDO – ORIGEN / IMAGENES CARRUSEL
    ================================ */
-.vin3a { background: url(img/viñedos/origen/origen1.png) no-repeat center; background-size:cover; }
-.vin3b { background: url(img/viñedos/origen/origen2.jpg) no-repeat center; background-size:cover; }
-.vin3c { background: url(img/viñedos/origen/origen3.jpg) no-repeat center; background-size:cover; }
-.vin3d { background: url(img/viñedos/origen/origen4.jpg) no-repeat center; background-size:cover; }
-.vin3e { background: url(img/viñedos/origen/origen5.jpg) no-repeat center; background-size:cover; }
-.vin3f { background: url(img/viñedos/origen/origen6.jpg) no-repeat center; background-size:cover; }
-.vin3g { background: url(img/viñedos/origen/origen7.jpg) no-repeat center; background-size:cover; }
+.vin3a { background: url(img/viñedos/origen/origen1.webp) no-repeat center; background-size:cover; }
+.vin3b { background: url(img/viñedos/origen/origen2.webp) no-repeat center; background-size:cover; }
+.vin3c { background: url(img/viñedos/origen/origen3.webp) no-repeat center; background-size:cover; }
+.vin3d { background: url(img/viñedos/origen/origen4.webp) no-repeat center; background-size:cover; }
+.vin3e { background: url(img/viñedos/origen/origen5.webp) no-repeat center; background-size:cover; }
+.vin3f { background: url(img/viñedos/origen/origen6.webp) no-repeat center; background-size:cover; }
+.vin3g { background: url(img/viñedos/origen/origen7.webp) no-repeat center; background-size:cover; }
 
 /* ================================
    VIÑEDO – SANTA ELENA / IMAGENES CARRUSEL
    ================================ */
-.vin4a { background: url(img/viñedos/santaelena/elena1.jpg) no-repeat center; background-size:cover; }
-.vin4b { background: url(img/viñedos/santaelena/elena2.jpg) no-repeat center; background-size:cover; }
-.vin4c { background: url(img/viñedos/santaelena/elena3.jpg) no-repeat center; background-size:cover; }
-.vin4d { background: url(img/viñedos/santaelena/elena4.png) no-repeat center; background-size:cover; }
-.vin4e { background: url(img/viñedos/santaelena/elena5.jpg) no-repeat center; background-size:cover; }
+.vin4a { background: url(img/viñedos/santaelena/elena1.webp) no-repeat center; background-size:cover; }
+.vin4b { background: url(img/viñedos/santaelena/elena2.webp) no-repeat center; background-size:cover; }
+.vin4c { background: url(img/viñedos/santaelena/elena3.webp) no-repeat center; background-size:cover; }
+.vin4d { background: url(img/viñedos/santaelena/elena4.webp) no-repeat center; background-size:cover; }
+.vin4e { background: url(img/viñedos/santaelena/elena5.webp) no-repeat center; background-size:cover; }
 
 /* ================================
    VIÑEDO – AGUAJE /  IMAGENES CARRUSEL
    ================================ */
-.vin5a { background: url(img/viñedos/aguaje/aguaje3.jpg) no-repeat center; background-size:cover; }
-.vin5b { background: url(img/viñedos/aguaje/aguaje2.jpg) no-repeat center; background-size:cover; }
-.vin5c { background: url(img/viñedos/aguaje/aguaje1.jpg) no-repeat center; background-size:cover; }
-.vin5d { background: url(img/viñedos/aguaje/aguaje4.jpg) no-repeat center; background-size:cover; }
-.vin5e { background: url(img/viñedos/aguaje/aguaje5.jpg) no-repeat center; background-size:cover; }
+.vin5a { background: url(img/viñedos/aguaje/aguaje3.webp) no-repeat center; background-size:cover; }
+.vin5b { background: url(img/viñedos/aguaje/aguaje2.webp) no-repeat center; background-size:cover; }
+.vin5c { background: url(img/viñedos/aguaje/aguaje1.webp) no-repeat center; background-size:cover; }
+.vin5d { background: url(img/viñedos/aguaje/aguaje4.webp) no-repeat center; background-size:cover; }
+.vin5e { background: url(img/viñedos/aguaje/aguaje5.webp) no-repeat center; background-size:cover; }
 
 /* ================================
    LAS CRUCES – GALERÍA / IMAGENES CARRUSEL
    ================================ */
-.cruz1 { background: url(img/viñedos/lascruces/lascruces2.jpg) no-repeat center; background-size:cover; }
-.cruz2 { background: url(img/viñedos/lascruces/lascruces1.jpeg) no-repeat center; background-size:cover; }
-.cruz3 { background: url(img/viñedos/lascruces/lascruces3.jpg) no-repeat center; background-size:cover; }
-.cruz4 { background: url(img/viñedos/lascruces/lascruces4.jpg) no-repeat center; background-size:cover; }
-.cruz5 { background: url(img/viñedos/lascruces/lascruces5.jpg) no-repeat center; background-size:cover; }
-.cruz6 { background: url(img/viñedos/lascruces/lascruces6.jpg) no-repeat center; background-size:cover; }
-.cruz7 { background: url(img/viñedos/lascruces/lascruces7.jpg) no-repeat center; background-size:cover; }
-.cruz8 { background: url(img/viñedos/lascruces/lascruces8.jpg) no-repeat center; background-size:cover; }
-.cruz9 { background: url(img/viñedos/lascruces/lascruces9.jpg) no-repeat center; background-size:cover; }
-.cruz10 { background: url(img/viñedos/lascruces/lascruces10.jpg) no-repeat center; background-size:cover; }
-.cruz11 { background: url(img/viñedos/lascruces/lascruces11.jpg) no-repeat center; background-size:cover; }
-.cruz12 { background: url(img/viñedos/lascruces/lascruces12.jpg) no-repeat center; background-size:cover; }
-.cruz13 { background: url(img/viñedos/lascruces/lascruces13.jpg) no-repeat center; background-size:cover; }
-.cruz14 { background: url(img/viñedos/lascruces/lascruces14.jpg) no-repeat center; background-size:cover; }
+.cruz1 { background: url(img/viñedos/lascruces/lascruces2.webp) no-repeat center; background-size:cover; }
+.cruz2 { background: url(img/viñedos/lascruces/lascruces1.webp) no-repeat center; background-size:cover; }
+.cruz3 { background: url(img/viñedos/lascruces/lascruces3.webp) no-repeat center; background-size:cover; }
+.cruz4 { background: url(img/viñedos/lascruces/lascruces4.webp) no-repeat center; background-size:cover; }
+.cruz5 { background: url(img/viñedos/lascruces/lascruces5.webp) no-repeat center; background-size:cover; }
+.cruz6 { background: url(img/viñedos/lascruces/lascruces6.webp) no-repeat center; background-size:cover; }
+.cruz7 { background: url(img/viñedos/lascruces/lascruces7.webp) no-repeat center; background-size:cover; }
+.cruz8 { background: url(img/viñedos/lascruces/lascruces8.webp) no-repeat center; background-size:cover; }
+.cruz9 { background: url(img/viñedos/lascruces/lascruces9.webp) no-repeat center; background-size:cover; }
+.cruz10 { background: url(img/viñedos/lascruces/lascruces10.webp) no-repeat center; background-size:cover; }
+.cruz11 { background: url(img/viñedos/lascruces/lascruces11.webp) no-repeat center; background-size:cover; }
+.cruz12 { background: url(img/viñedos/lascruces/lascruces12.webp) no-repeat center; background-size:cover; }
+.cruz13 { background: url(img/viñedos/lascruces/lascruces13.webp) no-repeat center; background-size:cover; }
+.cruz14 { background: url(img/viñedos/lascruces/lascruces14.webp) no-repeat center; background-size:cover; }
 
 /* ================================
    SARMIENTO – GALERÍA COMPLETA / IMAGENES CARRUSEL
    ================================ */
-.vsar1  { background: url(img/viñedos/sarmiento/vsar3.jpeg) no-repeat center; background-size:cover; }
-.vsar2  { background: url(img/viñedos/sarmiento/vsar2.jpeg) no-repeat center; background-size:cover; }
-.vsar3  { background: url(img/viñedos/sarmiento/vsar1.jpeg) no-repeat center; background-size:cover; }
-.vsar4  { background: url(img/viñedos/sarmiento/vsar4.jpeg) no-repeat center; background-size:cover; }
-.vsar5  { background: url(img/viñedos/sarmiento/vsar5.jpeg) no-repeat center; background-size:cover; }
-.vsar7  { background: url(img/viñedos/sarmiento/vsar7.jpeg) no-repeat center; background-size:cover; }
-.vsar8  { background: url(img/viñedos/sarmiento/vsar8.jpeg) no-repeat center; background-size:cover; }
-.vsar9  { background: url(img/viñedos/sarmiento/vsar9.jpeg) no-repeat center; background-size:cover; }
-.vsar10 { background: url(img/viñedos/sarmiento/vsar10.jpeg) no-repeat center; background-size:cover; }
-.vsar11 { background: url(img/viñedos/sarmiento/vsar11.PNG) no-repeat center; background-size:cover; }
-.vsar12 { background: url(img/viñedos/sarmiento/vsar12.PNG) no-repeat center; background-size:cover; }
-.vsar13 { background: url(img/viñedos/sarmiento/vsar13.PNG) no-repeat center; background-size:cover; }
-.vsar14 { background: url(img/viñedos/sarmiento/vsar14.JPG) no-repeat center; background-size:cover; }
-.vsar15 { background: url(img/viñedos/sarmiento/vsar15.JPG) no-repeat center; background-size:cover; }
+.vsar1  { background: url(img/viñedos/sarmiento/vsar3.webp) no-repeat center; background-size:cover; }
+.vsar2  { background: url(img/viñedos/sarmiento/vsar2.webp) no-repeat center; background-size:cover; }
+.vsar3  { background: url(img/viñedos/sarmiento/vsar1.webp) no-repeat center; background-size:cover; }
+.vsar4  { background: url(img/viñedos/sarmiento/vsar4.webp) no-repeat center; background-size:cover; }
+.vsar5  { background: url(img/viñedos/sarmiento/vsar5.webp) no-repeat center; background-size:cover; }
+.vsar6  { background: url(img/viñedos/sarmiento/vsar16.webp) no-repeat center; background-size:cover; }
+.vsar7  { background: url(img/viñedos/sarmiento/vsar7.webp) no-repeat center; background-size:cover; }
+.vsar8  { background: url(img/viñedos/sarmiento/vsar8.webp) no-repeat center; background-size:cover; }
+.vsar9  { background: url(img/viñedos/sarmiento/vsar9.webp) no-repeat center; background-size:cover; }
+.vsar10 { background: url(img/viñedos/sarmiento/vsar10.webp) no-repeat center; background-size:cover; }
+.vsar11 { background: url(img/viñedos/sarmiento/vsar11.webp) no-repeat center; background-size:cover; }
+.vsar12 { background: url(img/viñedos/sarmiento/vsar12.webp) no-repeat center; background-size:cover; }
+.vsar13 { background: url(img/viñedos/sarmiento/vsar13.webp) no-repeat center; background-size:cover; }
+.vsar14 { background: url(img/viñedos/sarmiento/vsar14.webp) no-repeat center; background-size:cover; }
+.vsar15 { background: url(img/viñedos/sarmiento/vsar15.webp) no-repeat center; background-size:cover; }
 
 
 /*GARNACHA*/
