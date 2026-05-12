@@ -1366,7 +1366,7 @@ address {
 
 /* SLIDE ECO / IMAGEN DE FONDO */
 .eco {
-    background: url(img/eco/yuca/yuca7.jpg) no-repeat center;
+    background: url(img/eco/yuca/yuca7.webp) no-repeat center;
     overflow: hidden !important;
     background-size:cover;
     border-radius:45px;
@@ -1434,80 +1434,80 @@ address {
 
 /*Galeria de ecoturismo*/
 /* SPA TONALLI */
-.tonalli1 { background: url(img/eco/tonalliSpa/tonalli1.jpg) no-repeat center; background-size:cover; }
-.tonalli2 { background: url(img/eco/tonalliSpa/tonalli2.jpg) no-repeat center; background-size:cover; }
-.tonalli4 { background: url(img/eco/tonalliSpa/tonalli4.jpg) no-repeat center; background-size:cover; }
-.tonalli5 { background: url(img/eco/tonalliSpa/tonalli5.jpg) no-repeat center; background-size:cover; }
-.tonalli6 { background: url(img/eco/tonalliSpa/tonalli6.jpg) no-repeat center; background-size:cover; }
-.tonalli7 { background: url(img/eco/tonalliSpa/tonalli7.jpg) no-repeat center; background-size:cover; }
-.tonalli8 { background: url(img/eco/tonalliSpa/tonalli8.jpg) no-repeat center; background-size:cover; }
+.tonalli1 { background: url(img/eco/tonalliSpa/tonalli1.webp) no-repeat center; background-size:cover; }
+.tonalli2 { background: url(img/eco/tonalliSpa/tonalli2.webp) no-repeat center; background-size:cover; }
+.tonalli4 { background: url(img/eco/tonalliSpa/tonalli4.webp) no-repeat center; background-size:cover; }
+.tonalli5 { background: url(img/eco/tonalliSpa/tonalli5.webp) no-repeat center; background-size:cover; }
+.tonalli6 { background: url(img/eco/tonalliSpa/tonalli6.webp) no-repeat center; background-size:cover; }
+.tonalli7 { background: url(img/eco/tonalliSpa/tonalli7.webp) no-repeat center; background-size:cover; }
+.tonalli8 { background: url(img/eco/tonalliSpa/tonalli8.webp) no-repeat center; background-size:cover; }
 
 /* SPA VITA */
 .vita1 { background: url(img/eco/vitaspa/vita1.png) no-repeat center; background-size:cover; }
 
 /* ECO YUCA */
-.yuca1 { background: url(img/eco/yuca/yuca1.jpg) no-repeat center; background-size:cover; }
-.yuca2 { background: url(img/eco/yuca/yuca2.jpg) no-repeat center; background-size:cover; }
-.yuca3 { background: url(img/eco/yuca/yuca3.jpg) no-repeat center; background-size:cover; }
-.yuca4 { background: url(img/eco/yuca/yuca4.jpg) no-repeat center; background-size:cover; }
-.yuca5 { background: url(img/eco/yuca/yuca5.jpg) no-repeat center; background-size:cover; }
-.yuca6 { background: url(img/eco/yuca/yuca6.jpg) no-repeat center; background-size:cover; }
-.yuca7 { background: url(img/eco/yuca/yuca7.jpg) no-repeat center; background-size:cover; }
+.yuca1 { background: url(img/eco/yuca/yuca1.webp) no-repeat center; background-size:cover; }
+.yuca2 { background: url(img/eco/yuca/yuca2.webp) no-repeat center; background-size:cover; }
+.yuca3 { background: url(img/eco/yuca/yuca3.webp) no-repeat center; background-size:cover; }
+.yuca4 { background: url(img/eco/yuca/yuca4.webp) no-repeat center; background-size:cover; }
+.yuca5 { background: url(img/eco/yuca/yuca5.webp) no-repeat center; background-size:cover; }
+.yuca6 { background: url(img/eco/yuca/yuca6.webp) no-repeat center; background-size:cover; }
+.yuca7 { background: url(img/eco/yuca/yuca7.webp) no-repeat center; background-size:cover; }
 
 /* LUNARIA */
-.luna1 { background: url(img/eco/luna/luna1.jpg) no-repeat center; background-size:cover; }
-.luna2 { background: url(img/eco/luna/luna2.jpg) no-repeat center; background-size:cover; }
-.luna3 { background: url(img/eco/luna/luna3.jpg) no-repeat center; background-size:cover; }
+.luna1 { background: url(img/eco/luna/luna1.webp) no-repeat center; background-size:cover; }
+.luna2 { background: url(img/eco/luna/luna2.webp) no-repeat center; background-size:cover; }
+.luna3 { background: url(img/eco/luna/luna3.webp) no-repeat center; background-size:cover; }
 
 /* RIDVAN */
-.rid0 { background: url(img/eco/ridvan/rid0.jpg) no-repeat center; background-size:cover; }
-.rid1 { background: url(img/eco/ridvan/rid1.jpg) no-repeat center; background-size:cover; }
-.rid2 { background: url(img/eco/ridvan/rid2.jpg) no-repeat center; background-size:cover; }
-.rid3 { background: url(img/eco/ridvan/rid3.jpg) no-repeat center; background-size:cover; }
-.rid4 { background: url(img/eco/ridvan/rid4.jpg) no-repeat center; background-size:cover; }
-.rid5 { background: url(img/eco/ridvan/rid5.jpg) no-repeat center; background-size:cover; }
-.rid6 { background: url(img/eco/ridvan/rid6.jpg) no-repeat center; background-size:cover; }
+.rid0 { background: url(img/eco/ridvan/rid0.webp) no-repeat center; background-size:cover; }
+.rid1 { background: url(img/eco/ridvan/rid1.webp) no-repeat center; background-size:cover; }
+.rid2 { background: url(img/eco/ridvan/rid2.webp) no-repeat center; background-size:cover; }
+.rid3 { background: url(img/eco/ridvan/rid3.webp) no-repeat center; background-size:cover; }
+.rid4 { background: url(img/eco/ridvan/rid4.webp) no-repeat center; background-size:cover; }
+.rid5 { background: url(img/eco/ridvan/rid5.webp) no-repeat center; background-size:cover; }
+.rid6 { background: url(img/eco/ridvan/rid6.webp) no-repeat center; background-size:cover; }
 
 /* CASA BAMBU */
-.bam1 { background: url(img/eco/casabambu/cb1.jpg) no-repeat center; background-size:cover; }
-.bam2 { background: url(img/eco/casabambu/cb2.jpg) no-repeat center; background-size:cover; }
-.bam3 { background: url(img/eco/casabambu/cb3.jpg) no-repeat center; background-size:cover; }
-.bam4 { background: url(img/eco/casabambu/cb4.jpg) no-repeat center; background-size:cover; }
-.bam5 { background: url(img/eco/casabambu/cb5.jpg) no-repeat center; background-size:cover; }
+.bam1 { background: url(img/eco/casabambu/cb1.webp) no-repeat center; background-size:cover; }
+.bam2 { background: url(img/eco/casabambu/cb2.webp) no-repeat center; background-size:cover; }
+.bam3 { background: url(img/eco/casabambu/cb3.webp) no-repeat center; background-size:cover; }
+.bam4 { background: url(img/eco/casabambu/cb4.webp) no-repeat center; background-size:cover; }
+.bam5 { background: url(img/eco/casabambu/cb5.webp) no-repeat center; background-size:cover; }
 
 /* RANCHO UBUNTU */
-.ubu1 { background: url(img/eco/ubuntu/ubu1.jpg) no-repeat center; background-size:cover; }
-.ubu2 { background: url(img/eco/ubuntu/ubu2.jpg) no-repeat center; background-size:cover; }
-.ubu3 { background: url(img/eco/ubuntu/ubu3.jpg) no-repeat center; background-size:cover; }
-.ubu4 { background: url(img/eco/ubuntu/ubu4.jpg) no-repeat center; background-size:cover; }
+.ubu1 { background: url(img/eco/ubuntu/ubu1.webp) no-repeat center; background-size:cover; }
+.ubu2 { background: url(img/eco/ubuntu/ubu2.webp) no-repeat center; background-size:cover; }
+.ubu3 { background: url(img/eco/ubuntu/ubu3.webp) no-repeat center; background-size:cover; }
+.ubu4 { background: url(img/eco/ubuntu/ubu4.webp) no-repeat center; background-size:cover; }
 
 /* HACIENDA GARABATO */
-.gara1 { background: url(img/eco/garabato/gara1.jpg) no-repeat center; background-size:cover; }
-.gara2 { background: url(img/eco/garabato/gara2.jpg) no-repeat center; background-size:cover; }
-.gara3 { background: url(img/eco/garabato/gara3.jpg) no-repeat center; background-size:cover; }
-.gara4 { background: url(img/eco/garabato/gara4.jpg) no-repeat center; background-size:cover; }
+.gara1 { background: url(img/eco/garabato/gara1.webp) no-repeat center; background-size:cover; }
+.gara2 { background: url(img/eco/garabato/gara2.webp) no-repeat center; background-size:cover; }
+.gara3 { background: url(img/eco/garabato/gara3.webp) no-repeat center; background-size:cover; }
+.gara4 { background: url(img/eco/garabato/gara4.webp) no-repeat center; background-size:cover; }
 
 /* HOTEL DEL CARMEN */
-.carm1 { background: url(img/eco/hotelcarmen/hdc1.jpg) no-repeat center; background-size:cover; }
-.carm2 { background: url(img/eco/hotelcarmen/hdc2.jpg) no-repeat center; background-size:cover; }
-.carm3 { background: url(img/eco/hotelcarmen/hdc3.jpg) no-repeat center; background-size:cover; }
-.carm4 { background: url(img/eco/hotelcarmen/hdc4.jpg) no-repeat center; background-size:cover; }
-.carm5 { background: url(img/eco/hotelcarmen/hdc5.jpg) no-repeat center; background-size:cover; }
-.carm6 { background: url(img/eco/hotelcarmen/hdc6.jpg) no-repeat center; background-size:cover; }
+.carm1 { background: url(img/eco/hotelcarmen/hdc1.webp) no-repeat center; background-size:cover; }
+.carm2 { background: url(img/eco/hotelcarmen/hdc2.webp) no-repeat center; background-size:cover; }
+.carm3 { background: url(img/eco/hotelcarmen/hdc3.webp) no-repeat center; background-size:cover; }
+.carm4 { background: url(img/eco/hotelcarmen/hdc4.webp) no-repeat center; background-size:cover; }
+.carm5 { background: url(img/eco/hotelcarmen/hdc5.webp) no-repeat center; background-size:cover; }
+.carm6 { background: url(img/eco/hotelcarmen/hdc6.webp) no-repeat center; background-size:cover; }
 
 /* CASA ENCANTO */
-.casaE1 { background: url(img/eco/casaencanto/casae1.png) no-repeat center; background-size:cover; }
-.casaE2 { background: url(img/eco/casaencanto/casae2.png) no-repeat center; background-size:cover; }
-.casaE3 { background: url(img/eco/casaencanto/casae3.png) no-repeat center; background-size:cover; }
-.casaE4 { background: url(img/eco/casaencanto/casae4.png) no-repeat center; background-size:cover; }
-.casaE5 { background: url(img/eco/casaencanto/casae5.png) no-repeat center; background-size:cover; }
+.casaE1 { background: url(img/eco/casaencanto/casae1.webp) no-repeat center; background-size:cover; }
+.casaE2 { background: url(img/eco/casaencanto/casae2.webp) no-repeat center; background-size:cover; }
+.casaE3 { background: url(img/eco/casaencanto/casae3.webp) no-repeat center; background-size:cover; }
+.casaE4 { background: url(img/eco/casaencanto/casae4.webp) no-repeat center; background-size:cover; }
+.casaE5 { background: url(img/eco/casaencanto/casae5.webp) no-repeat center; background-size:cover; }
 
 /*PRESA DEL JOCOQUI*/
-.presaj1 { background: url(img/eco/jocoqui/pjocoqui4.jpg) no-repeat center; background-size:cover; }
-.presaj2 { background: url(img/eco/jocoqui/pjocoqui2.jpg) no-repeat center; background-size:cover; }
-.presaj3 { background: url(img/eco/jocoqui/pjocoqui3.jpg) no-repeat center; background-size:cover; }
-.presaj4 { background: url(img/eco/jocoqui/pjocoqui1.jpg) no-repeat center; background-size:cover; }
-.presaj5 { background: url(img/eco/jocoqui/pjocoqui5.jpg) no-repeat center; background-size:cover; }
+.presaj1 { background: url(img/eco/jocoqui/pjocoqui4.webp) no-repeat center; background-size:cover; }
+.presaj2 { background: url(img/eco/jocoqui/pjocoqui2.webp) no-repeat center; background-size:cover; }
+.presaj3 { background: url(img/eco/jocoqui/pjocoqui3.webp) no-repeat center; background-size:cover; }
+.presaj4 { background: url(img/eco/jocoqui/pjocoqui1.webp) no-repeat center; background-size:cover; }
+.presaj5 { background: url(img/eco/jocoqui/pjocoqui5.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
@@ -1519,7 +1519,7 @@ address {
 
 /* HERO */
 .holistica-bg {
-  background: url(img/eco/tonalliSpa/tonalli6.jpg) no-repeat center;
+  background: url(img/eco/tonalliSpa/tonalli6.webp) no-repeat center;
   background-size: cover;
   border-radius: 50px;
   width: 90%;
