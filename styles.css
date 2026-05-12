@@ -1588,7 +1588,7 @@ address {
 
 
 .foto-bg{
-  background:url(img/fotografica/presa.jpg) no-repeat center;
+  background:url(img/fotografica/presa.webp) no-repeat center;
   background-size:cover;
   border-radius:50px;
   width:90%;
@@ -1648,9 +1648,9 @@ address {
   background-position:center;
 }
 
-.foto1{background:url(img/fotografica/mariposa.jpeg) center/cover;}
-.foto2{background:url(img/fotografica/danza.jpeg) center/cover;}
-.foto3{background:url(img/fotografica/reina.jpeg) center/cover;}
+.foto1{background:url(img/fotografica/mariposa.webp) center/cover;}
+.foto2{background:url(img/fotografica/danza.webp) center/cover;}
+.foto3{background:url(img/fotografica/reina.webp) center/cover;}
 
 .info-card{
   padding:20px;
@@ -1699,7 +1699,7 @@ address {
 }
 /* HERO */
 .slide-h{
-  background: url(img/haciendas/h-letras/h-letras11.png) no-repeat center;
+  background: url(img/haciendas/h-letras/h-letras11.webp) no-repeat center;
   overflow: hidden !important;
   background-size: cover;
   border-radius: 45px;
