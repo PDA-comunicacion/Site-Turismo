@@ -409,15 +409,25 @@
 
   .slide-g h3,
   .slide-c-c h3,
-  .slide-ho h3
-  .slide-h h3{
+  .slide-ho h3,
+  .slide-h h3,
+  .slide-vin h3, 
+  .slide-g h3,
+  .slide-eco h3,
+  .slide-r h3,
+  .slide-enlace h3{
     font-size: 2rem;
   }
 
   .slide-g p,
   .slide-c-c p,
   .slide-ho p,
-  .slide-h p{
+  .slide-h p,
+  .slide-vin p,  
+  .slide-g p,
+  .slide-eco p,
+  .slide-r p,
+  .slide-enlace p{
     font-size: 1.1rem;
   }
 
@@ -510,12 +520,13 @@
     font-size: 0.9rem;
   }
 
-  /*ENOTURISMO*/
   .slide-g h3,
   .slide-c-c h3,
   .slide-ho h3,
   .slide-h h3,
-  .slide-vin h3,
+  .slide-vin h3, 
+  .slide-g h3,
+  .slide-eco h3,
   .slide-r h3,
   .slide-enlace h3{
     font-size: 1.1rem;
@@ -525,7 +536,11 @@
   .slide-c-c p,
   .slide-ho p,
   .slide-h p,
-  .slide-vin p {
+  .slide-vin p,  
+  .slide-g p,
+  .slide-eco p,
+  .slide-r p,
+  .slide-enlace p {
     font-size: 0.9rem;
   }
 

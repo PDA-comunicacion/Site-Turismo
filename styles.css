@@ -1099,7 +1099,7 @@ address {
 }
 
 .slide-g {
-  background: url(img/ruta_garnacha/img-principal.jpg) no-repeat center;
+  background: url(img/ruta_garnacha/img-principal.webp) no-repeat center;
   background-size: cover;
   background-position: center;
   border-radius: 50px;
@@ -1246,111 +1246,111 @@ address {
 /* =====================================
    GALERÍA / SECCIÓN GORDITAS Y MIGADAS IME
    ===================================== */
-.gymi-1 { background: url(img/ruta_garnacha/gorditas_ime/gymi-1.jpg) no-repeat center; background-size:cover; }
-.gymi-2 { background: url(img/ruta_garnacha/gorditas_ime/gymi-2.jpg) no-repeat center; background-size:cover; }
-.gymi-3 { background: url(img/ruta_garnacha/gorditas_ime/gymi-3.jpg) no-repeat center; background-size:cover; }
-.gymi-4 { background: url(img/ruta_garnacha/gorditas_ime/gymi-4.jpg) no-repeat center; background-size:cover; }
+.gymi-1 { background: url(img/ruta_garnacha/gorditas_ime/gymi-1.webp) no-repeat center; background-size:cover; }
+.gymi-2 { background: url(img/ruta_garnacha/gorditas_ime/gymi-2.webp) no-repeat center; background-size:cover; }
+.gymi-3 { background: url(img/ruta_garnacha/gorditas_ime/gymi-3.webp) no-repeat center; background-size:cover; }
+.gymi-4 { background: url(img/ruta_garnacha/gorditas_ime/gymi-4.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
    GALERÍA / SECCIÓN GORDITAS TOMY
    ===================================== */
-.gt-1 { background: url(img/ruta_garnacha/goritas_tomy/gt-1.jpg) no-repeat center; background-size:cover; }
-.gt-2 { background: url(img/ruta_garnacha/goritas_tomy/gt-2.jpg) no-repeat center; background-size:cover; }
-.gt-3 { background: url(img/ruta_garnacha/goritas_tomy/gt-3.jpg) no-repeat center; background-size:cover; }
+.gt-1 { background: url(img/ruta_garnacha/goritas_tomy/gt-1.webp) no-repeat center; background-size:cover; }
+.gt-2 { background: url(img/ruta_garnacha/goritas_tomy/gt-2.webp) no-repeat center; background-size:cover; }
+.gt-3 { background: url(img/ruta_garnacha/goritas_tomy/gt-3.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
    GALERÍA / SECCIÓN LONCHERIA SERNA
    ===================================== */
-.ls-1 { background: url(img/ruta_garnacha/loncheria_serna/ls-1.jpg) no-repeat center; background-size:cover; }
-.ls-2 { background: url(img/ruta_garnacha/loncheria_serna/ls-2.jpg) no-repeat center; background-size:cover; }
-.ls-3 { background: url(img/ruta_garnacha/loncheria_serna/ls-3.jpg) no-repeat center; background-size:cover; }
-.ls-4 { background: url(img/ruta_garnacha/loncheria_serna/ls-4.jpg) no-repeat center; background-size:cover; }
+.ls-1 { background: url(img/ruta_garnacha/loncheria_serna/ls-1.webp) no-repeat center; background-size:cover; }
+.ls-2 { background: url(img/ruta_garnacha/loncheria_serna/ls-2.webp) no-repeat center; background-size:cover; }
+.ls-3 { background: url(img/ruta_garnacha/loncheria_serna/ls-3.webp) no-repeat center; background-size:cover; }
+.ls-4 { background: url(img/ruta_garnacha/loncheria_serna/ls-4.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
    GALERÍA / SECCIÓN MARISCOS CACHE
    ===================================== */
-.mc-1 { background: url(img/ruta_garnacha/mariscos_cache/mc-1.jpg) no-repeat center; background-size:cover; }
-.mc-2 { background: url(img/ruta_garnacha/mariscos_cache/mc-2.jpg) no-repeat center; background-size:cover; }
-.mc-3 { background: url(img/ruta_garnacha/mariscos_cache/mc-3.jpg) no-repeat center; background-size:cover; }
-.mc-4 { background: url(img/ruta_garnacha/mariscos_cache/mc-4.jpg) no-repeat center; background-size:cover; }
+.mc-1 { background: url(img/ruta_garnacha/mariscos_cache/mc-1.webp) no-repeat center; background-size:cover; }
+.mc-2 { background: url(img/ruta_garnacha/mariscos_cache/mc-2.webp) no-repeat center; background-size:cover; }
+.mc-3 { background: url(img/ruta_garnacha/mariscos_cache/mc-3.webp) no-repeat center; background-size:cover; }
+.mc-4 { background: url(img/ruta_garnacha/mariscos_cache/mc-4.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
    RUTA GASTRONÓMICA – GORDITAS ARTURO
    ===================================== */
-.rgga-1 { background: url(img/ruta_garnacha/gorditas_arturo/ga-1.jpg) no-repeat center; background-size:cover; }
-.rgga-2 { background: url(img/ruta_garnacha/gorditas_arturo/ga-2.jpg) no-repeat center; background-size:cover; }
-.rgga-3 { background: url(img/ruta_garnacha/gorditas_arturo/ga-3.jpg) no-repeat center; background-size:cover; }
-.rgga-4 { background: url(img/ruta_garnacha/gorditas_arturo/ga-4.jpg) no-repeat center; background-size:cover; }
+.rgga-1 { background: url(img/ruta_garnacha/gorditas_arturo/ga-1.webp) no-repeat center; background-size:cover; }
+.rgga-2 { background: url(img/ruta_garnacha/gorditas_arturo/ga-2.webp) no-repeat center; background-size:cover; }
+.rgga-3 { background: url(img/ruta_garnacha/gorditas_arturo/ga-3.webp) no-repeat center; background-size:cover; }
+.rgga-4 { background: url(img/ruta_garnacha/gorditas_arturo/ga-4.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
    RUTA GASTRONÓMICA – ANTOJITOS CRISTY
    ===================================== */
-.rgac-1 { background: url(img/ruta_garnacha/antojitos_cristy/rgac-1.jpg) no-repeat center; background-size:cover; }
-.rgac-2 { background: url(img/ruta_garnacha/antojitos_cristy/rgac-2.jpg) no-repeat center; background-size:cover; }
-.rgac-3 { background: url(img/ruta_garnacha/antojitos_cristy/rgac-3.jpg) no-repeat center; background-size:cover; }
+.rgac-1 { background: url(img/ruta_garnacha/antojitos_cristy/rgac-1.webp) no-repeat center; background-size:cover; }
+.rgac-2 { background: url(img/ruta_garnacha/antojitos_cristy/rgac-2.webp) no-repeat center; background-size:cover; }
+.rgac-3 { background: url(img/ruta_garnacha/antojitos_cristy/rgac-3.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
    RUTA GASTRONÓMICA – CENADURÍA LILI
    ===================================== */
-.rg-cl-1 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-1.jpg) no-repeat center; background-size:cover; }
-.rg-cl-2 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-2.jpg) no-repeat center; background-size:cover; }
-.rg-cl-3 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-3.jpg) no-repeat center; background-size:cover; }
-.rg-cl-4 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-4.jpg) no-repeat center; background-size:cover; }
+.rg-cl-1 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-1.webp) no-repeat center; background-size:cover; }
+.rg-cl-2 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-2.webp) no-repeat center; background-size:cover; }
+.rg-cl-3 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-3.webp) no-repeat center; background-size:cover; }
+.rg-cl-4 { background: url(img/ruta_garnacha/cenaduria_lili/rgcl-4.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
    RUTA GASTRONÓMICA – CENADURÍA HORTENCIA
    ===================================== */
-.rg-gh-1 { background: url(img/ruta_garnacha/cenaduria_hortencia/rg-gh-1.jpg) no-repeat center; background-size:cover; }
-.rg-gh-2 { background: url(img/ruta_garnacha/cenaduria_hortencia/rg-gh-2.jpg) no-repeat center; background-size:cover; }
-.rg-gh-3 { background: url(img/ruta_garnacha/cenaduria_hortencia/rg-gh-3.jpg) no-repeat center; background-size:cover; }
+.rg-gh-1 { background: url(img/ruta_garnacha/cenaduria_hortencia/rg-gh-1.webp) no-repeat center; background-size:cover; }
+.rg-gh-2 { background: url(img/ruta_garnacha/cenaduria_hortencia/rg-gh-2.webp) no-repeat center; background-size:cover; }
+.rg-gh-3 { background: url(img/ruta_garnacha/cenaduria_hortencia/rg-gh-3.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
    RUTA GASTRONÓMICA – GORDITAS MEÑA
    ===================================== */
-.rg-gm-1 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-1.jpg) no-repeat center; background-size:cover; }
-.rg-gm-2 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-2.jpg) no-repeat center; background-size:cover; }
-.rg-gm-3 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-3.jpg) no-repeat center; background-size:cover; }
-.rg-gm-4 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-4.jpg) no-repeat center; background-size:cover; }
+.rg-gm-1 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-1.webp) no-repeat center; background-size:cover; }
+.rg-gm-2 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-2.webp) no-repeat center; background-size:cover; }
+.rg-gm-3 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-3.webp) no-repeat center; background-size:cover; }
+.rg-gm-4 { background: url(img/ruta_garnacha/gorditas_meña/rg-gm-4.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
    RUTA GASTRONÓMICA – TAQUERIA YATZIL
    ===================================== */
-.rg-ty-1 { background: url(img/ruta_garnacha/taqueria_yatzil/rg-ty-1.jpg) no-repeat center; background-size:cover; }
+.rg-ty-1 { background: url(img/ruta_garnacha/taqueria_yatzil/rg-ty-1.webp) no-repeat center; background-size:cover; }
 
 /* =====================================
    RUTA GASTRONÓMICA – LAS CARMELINAS
    ===================================== */
-.rg-lc-1 { background: url(img/ruta_garnacha/las_carmelinas/res-s1b.jpg) no-repeat center; background-size:cover; }
-.rg-lc-2 { background: url(img/ruta_garnacha/las_carmelinas/res-s2c.jpg) no-repeat center; background-size:cover; }
+.rg-lc-1 { background: url(img/ruta_garnacha/las_carmelinas/res-s1b.webp) no-repeat center; background-size:cover; }
+.rg-lc-2 { background: url(img/ruta_garnacha/las_carmelinas/res-s2c.webp) no-repeat center; background-size:cover; }
 
 /* =====================================
    RUTA GASTRONÓMICA – RESTAURANTE PELICANOS
    ===================================== */
-.rg-rp-1 { background: url(img/ruta_garnacha/restaurante_pelicanos/peli1.jpg) no-repeat center; background-size:cover; }
-.rg-rp-2 { background: url(img/ruta_garnacha/restaurante_pelicanos/peli2.jpg) no-repeat center; background-size:cover; }
+.rg-rp-1 { background: url(img/ruta_garnacha/restaurante_pelicanos/peli1.webp) no-repeat center; background-size:cover; }
+.rg-rp-2 { background: url(img/ruta_garnacha/restaurante_pelicanos/peli2.webp) no-repeat center; background-size:cover; }
 
 /* =====================================
    RUTA GASTRONÓMICA – CASA NACHO
    ===================================== */
-.rg-nc-1 { background: url(img/ruta_garnacha/casa_nacho/cdn1.jpg) no-repeat center; background-size:cover; }
-.rg-nc-2 { background: url(img/ruta_garnacha/casa_nacho/cdn2.jpg) no-repeat center; background-size:cover; }
-.rg-nc-3 { background: url(img/ruta_garnacha/casa_nacho/cdn3.jpg) no-repeat center; background-size:cover; }
+.rg-nc-1 { background: url(img/ruta_garnacha/casa_nacho/cdn1.webp) no-repeat center; background-size:cover; }
+.rg-nc-2 { background: url(img/ruta_garnacha/casa_nacho/cdn2.webp) no-repeat center; background-size:cover; }
+.rg-nc-3 { background: url(img/ruta_garnacha/casa_nacho/cdn3.webp) no-repeat center; background-size:cover; }
 
 /* =====================================
    RUTA GASTRONÓMICA – RESTAURANTE CUQUITA
    ===================================== */
-.rg-rc-1 { background: url(img/ruta_garnacha/restaurante_cuquita/cu1.jpg) no-repeat center; background-size:cover; }
-.rg-rc-2 { background: url(img/ruta_garnacha/restaurante_cuquita/cu2.jpg) no-repeat center; background-size:cover; }
-.rg-rc-3 { background: url(img/ruta_garnacha/restaurante_cuquita/cu3.jpg) no-repeat center; background-size:cover; }
+.rg-rc-1 { background: url(img/ruta_garnacha/restaurante_cuquita/cu1.webp) no-repeat center; background-size:cover; }
+.rg-rc-2 { background: url(img/ruta_garnacha/restaurante_cuquita/cu2.webp) no-repeat center; background-size:cover; }
+.rg-rc-3 { background: url(img/ruta_garnacha/restaurante_cuquita/cu3.webp) no-repeat center; background-size:cover; }
 
 
 /* =====================================
