@@ -308,11 +308,11 @@ html, body {
 }
 
 /* FONDOS DE SLIDES */
-.slide1 { background: url(img/slide-11.jpeg) no-repeat center/cover; }
-.slide2 { background: url(img/slide2-1.png) no-repeat center/cover; }
-.slide3 { background: url(img/slide-33.jpg) no-repeat center/cover; }
-.slide4 { background: url(img/slide4.jpeg) no-repeat center/cover; }
-.slide5 { background: url(img/slide2-eco.png) no-repeat center/cover; }
+.slide1 { background: url(img/slide-11.webp) no-repeat center/cover; }
+.slide2 { background: url(img/slide2-1.webp) no-repeat center/cover; }
+.slide3 { background: url(img/slide-33.webp) no-repeat center/cover; }
+.slide4 { background: url(img/slide4.webp) no-repeat center/cover; }
+.slide5 { background: url(img/slide2-eco.webp) no-repeat center/cover; }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
@@ -340,11 +340,11 @@ html, body {
   }
 
   .conoce-p h2 {
-    font-size: 32px;
+    font-size: 1.9rem;
   }
 
   .conoce-p p {
-    font-size: 16px;
+    font-size: 0.8rem;
   }
 }
 
