@@ -134,24 +134,6 @@ html, body {
     .navbar-collapse {
         width: 100%;
     }
-
-    .nav-icons {
-        flex-direction: column; /* Iconos en vertical */
-        align-items: center;
-        justify-content: center;
-        margin-top: 15px;
-        gap: 12px;
-        width: 100%;
-    }
-
-    .nav-icons li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .nav-icons img {
-        height: 38px;
-    }
 }
 
 
@@ -164,11 +146,6 @@ html, body {
         height: 30px;
     }
 }
-
-/* Color personalizado del icono hamburguesa */
-/* NAVBAR FLOTANTE */
-/* BOTÓN HAMBURGUESA FLOTANTE */
-
 
 .btn-floating-menu:hover {
   transform: scale(1.1);
@@ -1667,6 +1644,14 @@ address {
   text-decoration:none;
   font-weight: 600;
   letter-spacing: 0.05rem;
+}
+
+/*Desactivado*/
+.btn-foto {
+  pointer-events: none; /
+  cursor: default;      
+  opacity: 0.5;         
+  text-decoration: none;
 }
 
 .base-box{

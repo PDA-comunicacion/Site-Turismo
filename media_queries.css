@@ -183,7 +183,15 @@
     padding: 70px 0;
   }
 
-  .slide-foto h3{
+  .slide-g h3,
+  .slide-c-c h3,
+  .slide-ho h3,
+  .slide-h h3,
+  .slide-vin h3, 
+  .slide-g h3,
+  .slide-eco h3,
+  .slide-r h3,
+  .slide-enlace h3{
     font-size: 2.2rem;
   }
 

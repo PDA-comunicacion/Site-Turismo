@@ -14,8 +14,9 @@
   <link rel="stylesheet" href="media_queries.css">
 
   <!-- Fuentes -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700,900" rel="stylesheet">
-  <link href="fonts/fonts.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap" rel="stylesheet">
 
   <!-- Flickity (Carrusel) -->
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
@@ -33,10 +34,10 @@
           <!-- Logos -->
           <div class="d-flex align-items-center gap-2">
               <a href="https://www.pabellon.gob.mx/">
-                  <img class="logo-mp" src="img/logo-pabellon.png" alt="Logo Municipio">
+                  <img class="logo-mp" src="img/logo-pabellon.png" alt="Logo Municipio" loading="lazy">
               </a>
               <a href="index.html">
-                  <img src="img/logo-mnu.png" class="img-logo" alt="Pabellón de Arteaga">
+                  <img src="img/logo-mnu.png" class="img-logo" alt="Pabellón de Arteaga" loading="lazy">
               </a>
           </div>
 
@@ -48,23 +49,23 @@
           <!-- Menú colapsable -->
           <div class="collapse navbar-collapse align-items-center" id="navbarRoutes">
               <ul class="nav-icons mb-0">
-                <li><a href="enoturismo.html"><img src="img/icons/Ruta_Enoturismo.png">Enoturismo</a></li>
-                <li><a href="religiosa.html"><img src="img/icons/Ruta_Religiosa.png">Religiosa</a></li>
-                <li><a href="ecoturismo.html"><img src="img/icons/Ruta_Ecoturismo_y_Turismo_Aventura.png">Ecoturismo </a></li>
-                <li><a href="haciendas.html"><img src="img/icons/Ruta_Haciendas.png">Haciendas</a></li>
-                <li><a href="garnacha.html"><img src="img/icons/Ruta_de_la_Garnacha.png"> Garnacha</a></li>  
-                <!-- <li><a href="#"><img src="img/icons/Ruta_Arqueológica.png">Arqueológica</a></li> -->
-                <li><a href="fotografica.html"><img src="img/icons/Ruta_Fotográfica.png">Fotográfica</a></li>  
-                <li><a href="holistica.html"><img src="img/icons/Ruta_Holística.png">Holística</a></li>
-                <li><a href="c-cultural.html"><img src="img/icons/Ruta_Centro_Cultural.png">C. Cultural</a></li>
-                <li><a href="enlace.html"><img src="img/icons/Ruta_de_Enlace.png">De Enlace</a></li>
+                <li><a href="enoturismo.html"><img src="img/icons/Ruta_Enoturismo.png" alt="Enoturismo" loading="lazy">Enoturismo</a></li>
+                <li><a href="religiosa.html"><img src="img/icons/Ruta_Religiosa.png" alt="Religiosa" loading="lazy">Religiosa</a></li>
+                <li><a href="ecoturismo.html"><img src="img/icons/Ruta_Ecoturismo_y_Turismo_Aventura.png" alt="Ecoturismo" loading="lazy">Ecoturismo </a></li>
+                <li><a href="haciendas.html"><img src="img/icons/Ruta_Haciendas.png" alt="Haciendas" loading="lazy">Haciendas</a></li>
+                <li><a href="garnacha.html"><img src="img/icons/Ruta_de_la_Garnacha.png" alt="Garnacha" loading="lazy"> Garnacha</a></li>  
+                <!-- <li><a href="#"><img src="img/icons/Ruta_Arqueológica.png" alt="Arqueológica" loading="lazy">Arqueológica</a></li> -->
+                <li><a href="fotografica.html"><img src="img/icons/Ruta_Fotográfica.png" alt="Fotográfica" loading="lazy">Fotográfica</a></li>  
+                <li><a href="holistica.html"><img src="img/icons/Ruta_Holística.png" alt="Holística" loading="lazy">Holística</a></li>
+                <li><a href="c-cultural.html"><img src="img/icons/Ruta_Centro_Cultural.png" alt="Centro Cultural" loading="lazy">C. Cultural</a></li>
+                <li><a href="enlace.html"><img src="img/icons/Ruta_de_Enlace.png" alt="De Enlace" loading="lazy">De Enlace</a></li>
               </ul>
           </div>
 
       </div>
   </nav>
   <div class="textura">
-      <img src="img/textura2.png" alt="">
+      <img src="img/textura2.png" alt="" loading="lazy">
   </div>
 
     <!-- ========================================
@@ -78,6 +79,7 @@
           <div class="col-sm-3">
           </div>
           <div class="col-sm-9 text-end">
+            <h3>EDICION 2025</h3>
             <h3>
               La gastronomía aquí no solo se sirve… se vive y se cuenta en cada bocado. Entre sabores que enamoran y sonrisas que te reciben, Pabellón de Arteaga se descubre con el paladar. 
             </h3>
@@ -419,105 +421,7 @@
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer></script>
 <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js" defer></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' defer></script>
-<script type="text/javascript">
-    $('.GyMI').click(function() {
-        $( '.res2, .res3, .res4, .res5, .res6, .res7, .res8, .res9, .res10, .res11, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res1' ).show( "slow" );
-    });
-
-    $('.GT').click(function() {
-        $( '.res1, .res3, .res4, .res5, .res6, .res7, .res8, .res9, .res10, .res11, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res2' ).show( "slow" );
-    });
-
-    $('.LS').click(function() {
-        $( '.res1, .res2, .res4, .res5, .res6, .res7, .res8, .res9, .res10, .res11, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res3' ).show( "slow" );
-    });
-
-    $('.MC').click(function() {
-        $( '.res1, .res2, .res3, .res5, .res6, .res7, .res8, .res9, .res10, .res11, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res4' ).show( "slow" );
-    });
-
-    $('.GA').click(function() {
-        $( '.res1, .res2, .res3, .res4, .res6, .res7, .res8, .res9, .res10, .res11, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res5' ).show( "slow" );
-    });
-
-    $('.AC').click(function() {
-        $( '.res1, .res2, .res3, .res4, .res5, .res7, .res8, .res9, .res10, .res11, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res6' ).show( "slow" );
-    });
-
-    $('.CL').click(function() {
-        $( '.res1, .res2, .res3, .res4, .res5, .res6, .res8, .res9, .res10, .res11, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res7' ).show( "slow" );
-    });
-
-    $('.CH').click(function() {
-        $( '.res1, .res2, .res3, .res4, .res5, .res6, .res7, .res9, .res10, .res11, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res8' ).show( "slow" );
-    });
-
-    $('.GM').click(function() {
-        $( '.res1, .res2, .res3, .res4, .res5, .res6, .res7, .res8, .res10, .res11, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res9' ).show( "slow" );
-    });
-
-    $('.TY').click(function() {
-        $( '.res1, .res2, .res3, .res4, .res5, .res6, .res7, .res8, .res9, .res11, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res10' ).show( "slow" );
-    });
-    $('.LC').click(function() {
-        $( '.res1, .res2, .res3, .res4, .res5, .res6, .res7, .res8, .res9, .res10, .res12, .res13, .res14, .none').fadeOut();
-        $( '.res11' ).show( "slow" );
-    });
-    $('.RP').click(function() {
-        $( '.res1, .res2, .res3, .res4, .res5, .res6, .res7, .res8, .res9, .res10, .res11, .res13, .res14, .none').fadeOut();
-        $( '.res12' ).show( "slow" );
-    });
-    $('.CN').click(function() {
-        $( '.res1, .res2, .res3, .res4, .res5, .res6, .res7, .res8, .res9, .res10, .res11, .res12, .res14, .none').fadeOut();
-        $( '.res13' ).show( "slow" );
-    });
-    $('.RC').click(function() {
-        $( '.res1, .res2, .res3, .res4, .res5, .res6, .res7, .res8, .res9, .res10, .res11, .res12, .res13, .none').fadeOut();
-        $( '.res14' ).show( "slow" );
-    });
-    $('.todo').click(function() {
-        $( '.none' ).fadeOut(); // Ocultamos el mensaje de "vacío" si existe
-        $( '.res1, .res2, .res3, .res4, .res5, .res6, .res7, .res8, .res9, .res10, .res11, .res12, .res13, .res14' ).show( "slow" );
-    });
-
-
-    /*$('.todo').click(function() {
-        var i = $(this).index();
-        $( '').fadeOut();
-        $( '.res1, .res2, .res3, .res4, .res5, .res6, .res7, res8, res9, res10, .none' ).show( "slow" );
-    });
-
-    */
-
-
-
-    // external js: flickity.pkgd.js, flickity-fade.js
-    $('.icon-wrapper').on('click', function() {
-      console.log('testing');
-      $(this).toggleClass('selected');
-    });
-
-    const toggle = document.getElementById('menu-toggle');
-    const menu = document.getElementById('mnuOptions');
-    const icon = toggle.querySelector('i');
-
-    toggle.addEventListener('click', () => {
-      menu.classList.toggle('active');
-
-      icon.classList.toggle('fa-bars');
-      icon.classList.toggle('fa-xmark');
-    });
-
-</script>
+<script  src="js/garnacha.js" defer></script>
+</body>
 </body>
 </html>
