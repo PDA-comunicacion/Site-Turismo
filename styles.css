@@ -2043,7 +2043,7 @@ address {
 }
 /* HERO */
 .slide-c-c{
-  background: url(img/c-cultural/DJI_0206.jpg) no-repeat center;
+  background: url(img/c-cultural/plaza_principal.webp) no-repeat center;
   overflow: hidden !important;
   background-size: cover;
   border-radius: 45px;
@@ -2079,10 +2079,9 @@ address {
   border-radius: 20px;
 }
 
-/* 1. Contenedor principal: define la perspectiva 3D */
 .flip-card-container {
     background-color: transparent;
-    height: 320px; /* Ajusta la altura según necesites */
+    height: 500px; /* Ajusta la altura según necesites */
     perspective: 1000px; /* Esencial para el efecto 3D */
     font-family: 'Montserrat', sans-serif;
 }
@@ -2093,8 +2092,8 @@ address {
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.8s; /* Suavidad del giro */
-    transform-style: preserve-3d; /* Mantiene los hijos en 3D */
+    transition: transform 0.8s; 
+    transform-style: preserve-3d;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 15px;
 }
@@ -2154,38 +2153,40 @@ address {
 
 /* 6. Estilos del Reverso */
 .flip-card-back {
-    background-color: var(--color-navy-deep); /* Usamos el azul marino de fondo */
-    color: var(--color-white);
-    transform: rotateY(180deg); /* El reverso ya empieza girado */
-    justify-content: flex-start; /* Alinea el texto arriba */
-    padding-top: 30px;
+  background-color: var(--color-navy-deep); 
+  color: var(--color-white);
+  transform: rotateY(180deg);
+  justify-content: flex-start; 
+  padding-top: 30px;
 }
 
 .flip-card-back h3 {
-    font-family: 'Coolvetica', sans-serif;
-    font-size: 1.3rem;
-    color: var(--color-magenta-vivid); /* Título en magenta */
-    margin-bottom: 20px;
-    border-bottom: 1px solid var(--color-magenta-vivid);
-    padding-bottom: 10px;
-    width: 80%;
+  font-family: var(--font-primary);
+  font-size: 1.3rem;
+  color: var(--color-magenta-vivid); /* Título en magenta */
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-magenta-vivid);
+  padding-bottom: 10px;
+  width: 80%;
 }
 
 /* Lista de información histórica */
 .info-cultural {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-    width: 90%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  width: 90%;
 }
 
 .info-cultural li {
-    font-size: 0.85rem;
-    line-height: 1.5;
-    margin-bottom: 12px;
-    display: flex;
-    align-items: flex-start;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-start;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .info-cultural li i {
@@ -2194,6 +2195,21 @@ address {
     margin-top: 3px;
     font-size: 0.7rem;
 }
+
+/*===============*/
+
+.imagen-historica{
+  width: 85%;
+  height: auto;
+  /* height: 140px; */
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+  border: 2px solid rgba(255,255,255,.2);
+}
+
+
 /*===================*/
 /*ENLACE*/
 /*===================*/
