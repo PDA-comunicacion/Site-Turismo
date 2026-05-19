@@ -492,7 +492,7 @@ html, body {
   color: var(--color-sky-blue); 
   text-transform: uppercase; 
   font-family: 'Coolvetica', sans-serif; 
-  text-align: left !important;
+  text-align: center !important;
 
 }
 
