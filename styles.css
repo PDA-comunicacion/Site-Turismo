@@ -875,6 +875,7 @@ address {
     color: #ffffff;
     text-decoration: none;
     font-family: var(--font-primary);
+    font-size: 1.1rem;
     font-weight: 600;
     display: block;
     margin: 0;
@@ -1409,6 +1410,7 @@ address {
   text-decoration:none;
   font-family: var(--font-primary);
   font-weight: 600;
+  font-size: 1.1rem;
 }
 
 /* Hover de enlaces dentro de address */
