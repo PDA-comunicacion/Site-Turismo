@@ -500,6 +500,7 @@ html, body {
   font-size: 30px;
   margin: 0; 
   line-height: 1.9rem;
+  text-align: left;
 }
 
 .text-intro2 span { 
@@ -1375,7 +1376,13 @@ address {
     font-size:18px;
     font-weight: 600;
 }
-
+.img-yuca{
+  width: 100%;
+  max-width: 420px; 
+  height: auto;
+  border-radius: 24px;
+  object-fit: cover;
+}
 /* ================================
    CARRUSELES POR SECCIÓN
    ================================ */
