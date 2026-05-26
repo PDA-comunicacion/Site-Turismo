@@ -476,7 +476,7 @@ html, body {
 ========================*/
 /* Contenedor principal */
 .mapa { 
-  background: url(img/mapa-l.PNG) no-repeat right center;
+  background: url(img/mapa-listo.png) no-repeat right center;
   background-size: contain;
   max-width: 1280px; 
   margin: 0 auto; 
@@ -500,13 +500,22 @@ html, body {
   font-size: 30px;
   margin: 0; 
   line-height: 1.9rem;
-  text-align: left;
 }
 
 .text-intro2 span { 
   color: #e71d73;
   font-family: 'Montserrat'; 
   font-weight: 800; 
+}
+
+.text-intro3 p {
+  color: var(--color-sky-blue);
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  text-transform: uppercase; 
+  font-size: 30px;
+  margin: 0; 
+  line-height: 1.9rem;
 }
 
 .mt-4{
@@ -2390,4 +2399,35 @@ address {
   border-radius: 25px;
   padding: 8px 20px;
   font-weight: 600;
+}
+
+
+/*============================*/
+/*    CHATBOT    */
+/*===========================*/
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px; /* Distancia desde abajo */
+  right: 20px;  /* Distancia desde la derecha */
+  background-color: #25d366; /* Verde WhatsApp */
+  color: #fff;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999; /* Para que siempre esté por encima de todo */
+  transition: all 0.3s ease;
+}
+
+.whatsapp-btn{
+  text-decoration: none;
+}
+/* Efecto al pasar el cursor */
+.whatsapp-btn:hover {
+  background-color: #20ba5a;
+  transform: scale(1.1);
 }
