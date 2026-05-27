@@ -684,11 +684,6 @@ footer img {
   height: auto; 
 }
 
-/* Fondo de la sección slide-v */
-.slide-v {
-    background: url(img/vinedo-slide.jpg) no-repeat center;
-    background-size: cover;
-}
 
 /* Contenedor general del carrusel */
 .carousel { 
@@ -832,13 +827,13 @@ h3 {
 
 /* Estilos de Vinícola Individual (Slide-vin) */
 .slide-vin {
-    width: 90%;
-    height: 85vh;
-    margin: 0 auto;
-    padding: 75px 0 0 0;
-    background: url(img/arte2.jpg) no-repeat center;
-    background-position: center;
-    border-radius: 45px;
+  background: url(img/viñedos/haciendaletras/letras4.webp) no-repeat center;
+  overflow: hidden !important;
+  background-size: cover;
+  border-radius: 45px;
+  width: 90%;
+  height: 85vh;
+  margin: 0 auto;
 }
 
 .slide-vin h3, 
@@ -867,6 +862,44 @@ h3 {
 .buton_ img {
     width: 40px;
     height: 40px;
+}
+
+/*=========*/
+/* LOGO PRINCIPAL */
+.logo-vinos{
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* MAPA */
+.mapa-vinos{
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* TITULO MAPA */
+.titulo-mapa{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #134375;
+    letter-spacing: 2px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+    .logo-vinos{
+        max-width: 320px;
+    }
+
+    .titulo-mapa{
+        font-size: 1.8rem;
+    }
+
 }
 
 /* Cuadros de Dirección y Contacto */
@@ -1216,7 +1249,7 @@ address {
   /* background: rgba(0, 163, 255, 0.5); */
   color: #fff;
   border-radius: 35px;
-  padding: 15px 10px;
+  padding: 15px 15px;
   margin-top: 10px;
 }
 
