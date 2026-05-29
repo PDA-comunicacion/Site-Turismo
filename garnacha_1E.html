@@ -6,59 +6,24 @@
   <meta name="description" content="Descubre la riqueza cultural, gastronómica y natural de Pabellón de Arteaga. ¡Conócenos!">
   <title>Garnacha - Pabellón de Arteaga</title>
 
-  <!-- =====================================================
-    OPTIMIZACIÓN DE PERFORMANCE - PUNTO 1, 2 y 3
-    ===================================================== -->
-
-  <!-- PUNTO 3: CSS Crítico inline — solo lo necesario para pintar el
-       contenido visible sin cargar archivos externos. Evita FOUC (flash
-       of unstyled content) y reduce el tiempo hasta el LCP. -->
-  <style>
-    /* Reset mínimo */
-    *{box-sizing:border-box;margin:0;padding:0}
-    html,body{width:100%;overflow-x:hidden;background:#fff;color:#134375}
-    /* Navbar */
-    .navbar{padding:10px 20px;display:flex;align-items:center;background:#134375;position:relative;z-index:100}
-    .img-logo{height:48px;width:auto}
-    .logo-mp{height:48px;width:auto}
-    /* Hero slide */
-    .slide-gast{min-height:60vh;position:relative}
-    .slide-g{min-height:60vh;background-size:cover;background-position:center;display:flex;align-items:center}
-    /* Textura top */
-    .textura{position:absolute;top:0;left:0;width:100%;z-index:1;pointer-events:none}
-    .textura img{width:100%;display:block}
-    /* Contenedor bootstrap básico */
-    .container{max-width:1200px;margin:0 auto;padding:0 15px;position:relative;z-index:2}
-    .row{display:flex;flex-wrap:wrap;margin:0 -15px}
-    /* Tipografía hero */
-    .slide-g h3{color:#fff;font-size:clamp(1rem,2.5vw,1.5rem);text-align:right}
-    .text-end{text-align:right}
-    /* WhatsApp btn placeholder */
-    .whatsapp-btn{position:fixed;bottom:20px;right:20px;z-index:9999;background:#25d366;color:#fff;border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;font-size:1.8rem;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,.3)}
-  </style>
-
-  <!-- PUNTO 2: Precargar la imagen LCP (hero/slide-gast) para que el
-       navegador la descubra antes de parsear el CSS -->
-  <link rel="preload" as="image" href="img/ruta_garnacha/logo.webp" fetchpriority="high">
-
-  <!-- Bootstrap CSS — cargado normalmente porque es render-critical -->
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Estilos personalizados -->
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="media_queries.css">
 
-  <!-- Fuentes: preconnect primero, luego carga con display=swap (ya incluido) -->
+  <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- PUNTO 3: Solo los pesos que realmente se usan en garnacha -->
+
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- PUNTO 1: Flickity CSS cargado de forma NO bloqueante (media trick) -->
+  <!--  Flickity  -->
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css"></noscript>
 
-  <!-- PUNTO 1: Font Awesome cargado de forma NO bloqueante -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 </head>
@@ -116,17 +81,10 @@
           <div class="col-sm-3">
           </div>
           <div class="col-sm-9 text-end">
-            <h3>EDICION 2025</h3>
+            <h3>EDICIÓN 2025</h3>
             <h3>
               La gastronomía aquí no solo se sirve… se vive y se cuenta en cada bocado. Entre sabores que enamoran y sonrisas que te reciben, Pabellón de Arteaga se descubre con el paladar. 
             </h3>
-            <!-- <h3>
-              En Pabellón de Arteaga, la mejor red social es una mesa con amigos y un buen plato. Aquí nunca faltan el sabor ni la sonrisa.
-            </h3> -->
-            <br>
-            <!-- <p>
-              La gastronomía no se sirve, se cuenta. Nuestra cocina rinde homenaje a la tierra: del despertar de la vid al aroma del ajo que nos distingue. Cada platillo une tradición, campo y raíces.
-            </p> -->
             
           </div>
           <!-- <img src="img/ruta_garnacha/bullet-r.png" class="bullet"> -->
@@ -170,32 +128,16 @@
   </section>
 
   <div  id="pleca-dir" >
-    <div class="GyMI" >Gorditas Ime </div>
-    <div class="GT" >Gorditas Tomy</div>
-    <div class="LS" >Loncheria Serna</div>
-    <div class="MC" >Maricos Cache</div>
-    <div class="GA" >Gorditas Arturo</div>
-    <div class="AC" >Antojitos Cristy</div>
-    <div class="CL" >Cenaduría Lili</div>
-    <div class="CH" >Cenaduría Hortencia</div>
-    <div class="GM" >Gorditas Meña</div>
-    <div class="TY" >Taqueria Yatzil</div>
-    <div class="LC" >Las Carmelinas</div>
-    <div class="RP" >Restaurante Pelicanos</div>
-    <div class="CN" >Casa Nacho</div>
-    <div class="RC" >Restaurante Cuquita</div>
-    <div class="todo" >Ver Todo</div>
 
-    <!--
-    <div class="res5" ><img src="imagenes/cafe.png">Artensanías</div>
-    <div class="res6" ><img src="imagenes/azulm.png">Oficinas</div>
-    <div class="res7" ><img src="imagenes/naranja.png">Área de Comida</div>
-    <div class="res8" >| Ver Todos</div> -->
+    <div class="EDICION2026" class="edicion_rg"> <a href="garnacha_2E.html"> EDICIÓN 2026 <br> ¡Ven y Conoce Sus Sabores Unicos! </a></div>
+    <div class="EDICION2025" class="edicion_rg"> <a href="garnacha_1E.html"> EDICIÓN 2025 <br> ¡Ven y Conoce Sus Sabores Unicos! </a> </div>
+
   </div>
 
   <section class="slides-g">
     <div class="container">
       <div class="row">
+        <!-- =================EDICIÓN 2025=================-->
         <!--GORDITAS Y MIGADAS IME-->
         <div class="col-sm-4 res1">
           <div class="carousel" data-flickity='{ "cellSelector": ".carousel-cell", "fade": false, "imagesLoaded": true, "wrapAround": true, "prevNextButtons": false,"pageDots":true, "autoPlay": true }'>
@@ -207,7 +149,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=2797793476627380720" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> Calle Reforma # 41, Barrio de Carboneras, 20675 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=2797793476627380720" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> Calle Reforma # 41, Barrio de Carboneras, 20675 Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="tel:+524659580892">+52 465 958 0892</a><br><br>
             <a href="tel:" style="opacity: 0;">+5</a><br><br>-->
           </div>
@@ -222,7 +164,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=4987168598098718018" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> Calle Gertrudis Ramos #4, Col. Francisco Villa, 20674 Pabellón de Arteaga, Ags.</a><br/><br/>
+            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=4987168598098718018" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> Calle Gertrudis Ramos #4, Col. Francisco Villa, 20674 Pabellón de Arteaga, Ags.</a><br>
             <!--<a href="mailto:pelicanos.rest@gmail.com">pelicanos.rest@gmail.com</a><br><br
             <a href="tel:+524659580786">+52 465 958 0786</a><br><br>>-->
           </div>
@@ -238,7 +180,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=15&t=m&hl=es-419&gl=MX&mapclient=embed&cid=9816812246695375443"><i class="fa-solid fa-location-dot"></i> Privada Heroico Colegio Militar # 1-B Zona Centro, 20670 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=15&t=m&hl=es-419&gl=MX&mapclient=embed&cid=9816812246695375443"><i class="fa-solid fa-location-dot"></i> Privada Heroico Colegio Militar # 1-B Zona Centro, 20670 Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="tel:+524493601171">+52 449 360 1171</a><br><br>
             <a href="mailto:"  style="opacity: 0;">hola@gmail.com</a><br><br>>-->  
           </div>
@@ -254,7 +196,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=2797010606676264622"><i class="fa-solid fa-location-dot"></i> Av. Plutarco Elías Calles # 64 Col. Industrial, 20670 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=2797010606676264622"><i class="fa-solid fa-location-dot"></i> Av. Plutarco Elías Calles # 64 Col. Industrial, 20670 Pabellón de Arteaga, Ags.</a><br>
             <!--<a href="tel:+524659580748">+52 465 958 0748</a><br><br>
             <a href="mailto:" style="opacity: 0;">hola@gmail.com</a><br><br>-->
           </div>
@@ -270,7 +212,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=17255958812529601436"><i class="fa-solid fa-location-dot"></i> Calle Ignacio Ramirez # 27, Col. 5 de Mayo, 20676 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=17255958812529601436"><i class="fa-solid fa-location-dot"></i> Calle Ignacio Ramirez # 27, Col. 5 de Mayo, 20676 Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="mailto:">hola@gmail.com</a><br><br>
             <a href="tel:">+52 449 377 1920</a><br><br> -->
           </div>
@@ -285,7 +227,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.app.goo.gl/sdq6ud3io8CeFMu59"><i class="fa-solid fa-location-dot"></i> Calle Venustiano Carranza # 330, Fracc. Jardines de Pabellón, 20673 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.app.goo.gl/sdq6ud3io8CeFMu59"><i class="fa-solid fa-location-dot"></i> Calle Venustiano Carranza # 330, Fracc. Jardines de Pabellón, 20673 Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="mailto:">hola@gmail.com</a><br><br>
             <a href="tel:">+52 449 377 1920</a><br><br>-->
           </div>
@@ -301,7 +243,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=10769674516030507302"><i class="fa-solid fa-location-dot"></i> Calle Francisco I. Madero Sur #75, Col. Palo Alto, 20675 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=10769674516030507302"><i class="fa-solid fa-location-dot"></i> Calle Francisco I. Madero Sur #75, Col. Palo Alto, 20675 Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="mailto:">hola@gmail.com</a><br><br>
             <a href="tel:">+52 449 377 1920</a><br><br> -->
           </div>
@@ -316,7 +258,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=7388760229256142842"><i class="fa-solid fa-location-dot"></i> Calle 5 de Febrero #62-A, Col. 5 de Mayo, 20676 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=7388760229256142842"><i class="fa-solid fa-location-dot"></i> Calle 5 de Febrero #62-A, Col. 5 de Mayo, 20676 Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="mailto:">hola@gmail.com</a><br><br>
             <a href="tel:">+52 449 377 1920</a><br><br> -->
           </div>
@@ -332,7 +274,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=10358606839018215019"><i class="fa-solid fa-location-dot"></i> Calle H. Colegio Militar S/N, Zona Centro, 20670 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=10358606839018215019"><i class="fa-solid fa-location-dot"></i> Calle H. Colegio Militar S/N, Zona Centro, 20670 Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="mailto:">hola@gmail.com</a><br><br>
             <a href="tel:">+52 449 377 1920</a><br><br> -->
           </div>
@@ -346,7 +288,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=9347418300986470017"><i class="fa-solid fa-location-dot"></i> Calle Vázquez del Mercado 1004, Fracc. Plutarco Elías Calles, 20677 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.google.com/maps?ll=22.14734,-102.280903&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=9347418300986470017"><i class="fa-solid fa-location-dot"></i> Calle Vázquez del Mercado 1004, Fracc. Plutarco Elías Calles, 20677 Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="mailto:">hola@gmail.com</a><br><br>
             <a href="tel:">+52 449 377 1920</a><br><br> -->
           </div>
@@ -360,7 +302,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.app.goo.gl/TXK11oQMAG4P8oY86"><i class="fa-solid fa-location-dot"></i> Av. Plutarco Elías Calles 19, Zona Centro, 20670 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.app.goo.gl/TXK11oQMAG4P8oY86"><i class="fa-solid fa-location-dot"></i> Av. Plutarco Elías Calles 19, Zona Centro, 20670 Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="mailto:">hola@gmail.com</a><br><br>
             <a href="tel:">+52 449 377 1920</a><br><br> -->
           </div>
@@ -374,7 +316,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.app.goo.gl/yPPgEGCeT1HH6BpX6"><i class="fa-solid fa-location-dot"></i> 20 de Noviembre 78, Carboneras, 20675 Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.app.goo.gl/yPPgEGCeT1HH6BpX6"><i class="fa-solid fa-location-dot"></i> 20 de Noviembre 78, Carboneras, 20675 Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="mailto:">hola@gmail.com</a><br><br>
             <a href="tel:">+52 449 377 1920</a><br><br> -->
           </div>
@@ -389,7 +331,7 @@
           </div>
           <div class="info-res">
             <!--Ubicación-->
-            <a href="https://maps.app.goo.gl/AW6cjSkN4ZKUomxRA"><i class="fa-solid fa-location-dot"></i> Aquiles Serdán 18, Zona Centro, Pabellón de Arteaga, Ags.</a><br><br>
+            <a href="https://maps.app.goo.gl/AW6cjSkN4ZKUomxRA"><i class="fa-solid fa-location-dot"></i> Aquiles Serdán 18, Zona Centro, Pabellón de Arteaga, Ags.</a><br>
             <!-- <a href="mailto:">hola@gmail.com</a><br><br>
             <a href="tel:">+52 449 377 1920</a><br><br> -->
           </div>
@@ -409,13 +351,17 @@
             <a href="tel:">+52 449 377 1920</a><br><br> -->
           </div>
         </div>
+
       </div>
+      
     </div>
   </section>
 
 
-  <!-- WhatsApp flotante -->
-  <a href="https://wa.me/+524493458350?text=Hola,%20quiero%20información" class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+  <!--ENLAZA A UN CHATBOT-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <a href="https://wa.me/+524495531507?text=Hola,%20quiero%20información" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-whatsapp"></i>
   </a>
 
@@ -458,12 +404,11 @@
 
 
 
-<!-- PUNTO 1: Scripts al final con defer — Bootstrap, Flickity (sin fade que no se usa aquí), JS propio -->
-<!-- jQuery ELIMINADO: no es necesario si garnacha.js usa vanilla JS. Si tu garnacha.js usa $(), descomenta la línea de jQuery -->
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' defer></script> -->
+<!-- Bootstrap JS -->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' defer></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer></script>
-<!-- flickity-fade eliminado: garnacha.html no usa fade:true en sus carruseles -->
 <script src="js/garnacha.js" defer></script>
 </body>
 </html>
