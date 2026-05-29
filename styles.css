@@ -1147,14 +1147,13 @@ address {
 .slide-g p {
   text-align: center;
   width:100%;
-  font-size:20px;
   color: var(--color-white);
   text-shadow: 3px 3px 6px black;
   padding: 10px;
 }
 
 .slide-g p{
-  font-size: 1.25rem;
+  font-size: 1.50rem;
   padding: 15px;
   font-weight: 600;
 }
