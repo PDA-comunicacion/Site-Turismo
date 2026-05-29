@@ -528,6 +528,20 @@
     font-size: 0.9rem;
   }
 
+  .slide-vin,
+  .slide-r,
+  .eco,
+  .slide-h,
+  .slide-g,
+  .foto-bg,
+  .holistica-bg,
+  .slide-c-c,
+  .foto-enlace {
+    width: 95%;
+    height: 40vh;
+    padding-top: 20px;
+  }
+
   .slide-g h3,
   .slide-c-c h3,
   .slide-ho h3,
@@ -613,11 +627,7 @@
   }
 
   /*GARNACHA*/
-  .slide-g{
-    width: 95%;
-    border-radius: 25px;
-    padding: 40px 0 0 0;
-  }
+  
 
   .slide-g h3{
     font-size: 1.5rem;
