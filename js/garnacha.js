@@ -4,7 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var EDICION2025 = $('.res1, .res2, .res3, .res4, .res5, .res6, .res7, .res8, .res9, .res10, .res11, .res12, .res13, .res14');
     var EDICION2026 = $('.res15, .res16, .res17, .res18, .res19, .res20, .res21, .res22, .res23');
 
-
+    //Ocultamos ambas ediciones al cargar la página
+    EDICION2025.hide();
+    EDICION2026.hide();
+    
     // Evento para la edición 2025
     $('.EDICION2025').click(function() {
         $('.none').fadeOut();// Ocultamos el mensaje de "vacío"
