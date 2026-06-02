@@ -160,8 +160,7 @@
   }
   .text-intro2 {
     font-size: 1.9rem;
-    text-align: left;
-    line-height: 25px !important;
+    text-align: left;;
   }
 
   .text-intro2 p {
