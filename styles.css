@@ -1572,15 +1572,15 @@ address {
 .ubu4 { background: url(img/eco/ubuntu/ubu4.webp) no-repeat center; background-size:cover; }
 
 /* HACIENDA GARABATO */
-.gara1 { background: url(img/eco/garabato/gara1.webp) no-repeat center; background-size:cover; }
+.gara1 { background: url(img/eco/garabato/gara4.webp) no-repeat center; background-size:cover; }
 .gara2 { background: url(img/eco/garabato/gara2.webp) no-repeat center; background-size:cover; }
 .gara3 { background: url(img/eco/garabato/gara3.webp) no-repeat center; background-size:cover; }
-.gara4 { background: url(img/eco/garabato/gara4.webp) no-repeat center; background-size:cover; }
+.gara4 { background: url(img/eco/garabato/gara1.webp) no-repeat center; background-size:cover; }
 
 /* HOTEL DEL CARMEN */
-.carm1 { background: url(img/eco/hotelcarmen/hdc1.webp) no-repeat center; background-size:cover; }
+.carm1 { background: url(img/eco/hotelcarmen/hdc3.webp) no-repeat center; background-size:cover; }
 .carm2 { background: url(img/eco/hotelcarmen/hdc2.webp) no-repeat center; background-size:cover; }
-.carm3 { background: url(img/eco/hotelcarmen/hdc3.webp) no-repeat center; background-size:cover; }
+.carm3 { background: url(img/eco/hotelcarmen/hdc1.webp) no-repeat center; background-size:cover; }
 .carm4 { background: url(img/eco/hotelcarmen/hdc4.webp) no-repeat center; background-size:cover; }
 .carm5 { background: url(img/eco/hotelcarmen/hdc5.webp) no-repeat center; background-size:cover; }
 .carm6 { background: url(img/eco/hotelcarmen/hdc6.webp) no-repeat center; background-size:cover; }
