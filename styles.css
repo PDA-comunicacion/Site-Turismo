@@ -2221,7 +2221,7 @@ address {
     -webkit-backface-visibility: hidden; /* Oculta el reverso cuando no está girado */
     backface-visibility: hidden;
     border-radius: 15px;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2309,7 +2309,7 @@ address {
 /*===============*/
 
 .imagen-historica{
-  width: 85%;
+  width: 80%;
   height: auto;
   /* height: 140px; */
   object-fit: cover;
