@@ -242,10 +242,7 @@
     font-size: 1.1rem;
   }
 
-  .text-intro,
-  .text-intro2 {
-    text-align: left !important;
-  }
+  
 
   .icono-info img {
     width: 100%;
@@ -265,7 +262,7 @@
 
   .text-intro2 {
     font-size: 1.9rem;
-    text-align: left;
+    text-align: center;
     line-height: 30px;
   }
 
